@@ -1,0 +1,27 @@
+name: Deploy to X-Server
+
+on:
+  push:
+    branches:
+      - main  # mainブランチにプッシュされたときに実行
+  workflow_dispatch:  # 手動実行も可能
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy to X-Server via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          server: ${{ secrets.XSERVER_HOST }}
+          username: ${{ secrets.XSERVER_USER }}
+          ssh_private_key: ${{ secrets.XSERVER_SSH_KEY }}
+          port: 10022  # X-ServerのSSHポート（デフォルト）
+          local_path: ./public_html/*
+          remote_path: ${{ secrets.XSERVER_REMOTE_PATH }}
+          sftpArgs: '-o StrictHostKeyChecking=no'
+
