@@ -14,14 +14,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Deploy to X-Server via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.XSERVER_FTP_HOST }}
-          username: ${{ secrets.XSERVER_FTP_USER }}
-          password: ${{ secrets.XSERVER_FTP_PASSWORD }}
-          local-dir: ./public_html/ts-tennis.fromround.com/
-          server-dir: ts/public/ts-tennis.fromround.com/
-          protocol: ftps
-          port: 21
+      - name: Install lftp
+        run: sudo apt-get install -y lftp
+
+      - name: Deploy to X-Server via lftp
+        env:
+          FTP_HOST: ${{ secrets.XSERVER_FTP_HOST }}
+          FTP_USER: ${{ secrets.XSERVER_FTP_USER }}
+          FTP_PASS: ${{ secrets.XSERVER_FTP_PASSWORD }}
+        run: |
+          lftp -e "
+            set ssl:verify-certificate no;
+            set ftp:ssl-allow yes;
+            set ftp:ssl-protect-data yes;
+            open -u $FTP_USER,$FTP_PASS $FTP_HOST;
+            mirror --reverse --delete --verbose ./public_html/ts-tennis.fromround.com/ /ts/public/ts-tennis.fromround.com/;
+            quit;
+          "
 
