@@ -17,7 +17,7 @@ jobs:
       - name: Install lftp
         run: sudo apt-get install -y lftp
 
-      - name: Debug - Check FTP directory structure
+      - name: Deploy to X-Server via lftp
         env:
           FTP_HOST: ${{ secrets.XSERVER_FTP_HOST }}
           FTP_USER: ${{ secrets.XSERVER_FTP_USER }}
@@ -28,8 +28,7 @@ jobs:
             set ftp:ssl-allow yes;
             set ftp:ssl-protect-data yes;
             open -u $FTP_USER,$FTP_PASS $FTP_HOST;
-            pwd;
-            ls;
+            mirror --reverse --delete --verbose ./public_html/ts-tennis.fromround.com/ /home/fromround/fromround.com/public_html/;
             quit;
           "
 
