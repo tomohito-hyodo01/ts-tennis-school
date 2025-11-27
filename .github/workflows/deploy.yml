@@ -23,5 +23,5 @@ jobs:
           FTP_USER: ${{ secrets.XSERVER_FTP_USER }}
           FTP_PASS: ${{ secrets.XSERVER_FTP_PASSWORD }}
         run: |
-          ncftpput -R -v -u "$FTP_USER" -p "$FTP_PASS" "$FTP_HOST" /ts/public/ts-tennis.fromround.com ./public_html/ts-tennis.fromround.com/*
+          ncftpput -R -v -u "$FTP_USER" -p "$FTP_PASS" "$FTP_HOST" ts/public/ts-tennis.fromround.com ./public_html/ts-tennis.fromround.com/*
 
