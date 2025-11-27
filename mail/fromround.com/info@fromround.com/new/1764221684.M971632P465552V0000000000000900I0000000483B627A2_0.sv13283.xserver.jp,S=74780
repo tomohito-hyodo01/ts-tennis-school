@@ -1,0 +1,994 @@
+Return-Path: <oyalagxmpqefloe@hotel-ueno.co.jp>
+Delivered-To: info@fromround.com
+X-Virus-Status: scanned (With Secure/Atlant/virusgw12114.xserver.jp/)
+Received: from hotel-ueno.co.jp (58x156x99x34.ap58.ftth.ucom.ne.jp [58.156.99.34])
+	by sv13283.xserver.jp (Postfix) with ESMTP id B2FAC600902C70
+	for <info@fromround.com>; Thu, 27 Nov 2025 14:34:44 +0900 (JST)
+Authentication-Results: sv13283.xserver.jp;
+	dkim=none ("invalid DKIM record") header.d=hotel-ueno.co.jp header.s=touYYKUFChY header.b=nGvJMPhq;
+	spf=softfail (sv13283.xserver.jp: 58.156.99.34 is neither permitted nor denied by domain of oyalagxmpqefloe@hotel-ueno.co.jp) smtp.mailfrom=oyalagxmpqefloe@hotel-ueno.co.jp;
+	dmarc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  s=touYYKUFChY; d=hotel-ueno.co.jp;
+  h=message-id:from:to:subject:date:mime-version:content-type;
+  bh=Vu4uqa6eNFbwY65r/3eEak1KXmuy33rhDVjoYDBvKMU=;
+  b=nGvJMPhqwOJaqIW3Ccnygr2wXfnU429pb0G64S7Vh2CIQTPgAy89QBWALcBe4/1RUQHvCMsE
+    9uHC+ZZoBlM6/e275xU8Ze8i26USoNAkJuUvqipWNR2gC8k2uvg41im3H3RH5/3dj7UmkPuR
+    XLu/vFWt3e+hlM+WvPkW+9BOns8=
+Received: from ZMBAXXM ([2384:20ad:5608:0ada:86b6:c28a:a9eb:5d24])
+	by mail.hotel-ueno.co.jp (NewEsmtp) with SMTP
+	id GSKF1Q6S; Thu, 27 Nov 2025 14:34:43 +0800
+Message-Id: <05c76dc35b69ff758525b4fd34c40337@hotel-ueno.co.jp>
+From: American Express <oyalagxmpqefloe@hotel-ueno.co.jp>
+To: info <info@fromround.com>
+Subject: =?gbk?B?W0FNRVJJQ0FOIEVYUFJFU1NdIKS01YjH873w7n60X7aopM6ktLC4xNo
+	=?=
+Date: Thu, 27 Nov 2025 14:34:43 +0900
+X-Priority: 3
+X-Mailer: oaRJjozEst 940.97674.78584.76084
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="66dee22a72e2c58e2c76e85e0007a6d1"
+XSRV-Filter: info@fromround.com
+
+This is a multi-part message in MIME format.
+
+--66dee22a72e2c58e2c76e85e0007a6d1
+Content-Type: text/plain; charset="GBK"
+Content-Transfer-Encoding: quoted-printable
+
+ [AMERICAN EXPRESS] =A4=B4=D5=88=C7=F3=BD=F0=EE~=B4_=B6=A8=A4=CE=A4=B4=B0=
+=B8=C4=DA   #outlook a =0Apadding: 0;=0A=0A=0Abody =0Amargin: 0;=0Apadding:=
+ 0;=0A-webkit-text-size-adjust: 100%;=0A-ms-text-size-adjust: 100%;=0A=0A=
+=0Atable,=0Atd =0Aborder-collapse: collapse;=0Amso-table-lspace: 0pt;=0Amso=
+-table-rspace: 0pt;=0A=0A=0Aimg =0Aborder: 0;=0Aheight: auto;=0Aline-height=
+: 100%;=0Aoutline: none;=0Atext-decoration: none;=0A-ms-interpolation-mode:=
+ bicubic;=0A=0A=0Ap =0Adisplay: block;=0Amargin: 13px 0;=0A =0A=0A=0A=0A96=
+=0A=0A=0A=0A=0A.mj-outlook-group-fixwidth:100% !important; =0A=0A=0A=0Ali =
+=0Atext-indent: -1em;=0A=0A=0A @media only screen and (min-width:480px) =0A=
+.mj-column-per-100 {=0Awidth: 100% !important;=0Amax-width: 100%;=0A}=0A=0A=
+.mj-column-per-6 {=0Awidth: 6% !important;=0Amax-width: 6%;=0A}=0A=0A.mj-co=
+lumn-per-10 {=0Awidth: 10% !important;=0Amax-width: 10%;=0A}=0A=0A.mj-colum=
+n-per-78 {=0Awidth: 78% !important;=0Amax-width: 78%;=0A}=0A=0A.mj-column-p=
+er-50 {=0Awidth: 50% !important;=0Amax-width: 50%;=0A}=0A @media only scree=
+n and (max-width:479px) =0Atable.mj-full-width-mobile {=0Awidth: 100% !impo=
+rtant;=0A}=0A=0Atd.mj-full-width-mobile {=0Awidth: auto !important;=0A}=0A =
+@media all and (max-width: 480px) =0A=0A.mobile-body div:first-child,=0A.mo=
+bile-body div {=0Amargin: 0 auto !important;=0Amax-width: 310px !important;=
+=0A}=0A=0A.body-1,=0A.body-1 div {=0Afont-size: 12px !important;=0Afont-wei=
+ght: 400 !important;=0Aline-height: 17px !important;=0A}=0A=0A.body-4,=0A.b=
+ody-4 div {=0Afont-size: 22px !important;=0Afont-weight: 400 !important;=0A=
+line-height: 30px !important;=0A}=0A=0A.dls-logo-bluebox-solid-sm,=0A.dls-l=
+ogo-bluebox-solid-sm img {=0Awidth: 45px !important;=0Aheight: 45px !import=
+ant;=0A}=0A=0A.dls-card-xs,=0A.dls-card-xs img {=0Awidth: 70px !important;=
+=0Aheight: 44px !important;=0A}=0A=0A.text-align-center,=0A.text-align-cent=
+er div {=0Atext-align: center !important;=0A}=0A=0A.text-align-left,=0A.tex=
+t-align-left div {=0Atext-align: left !important;=0A}=0A=0A.btn-align-cente=
+r,=0A.btn-align-center table {=0Atext-align: center !important;=0A}=0A=0A.b=
+tn-align-center table {=0Amargin: 0 auto !important;=0A}=0A=0A.dls-tagline-=
+blue-sm td,=0A.dls-tagline-blue-sm img {=0Awidth: 220px !important;=0A}=0A=
+=0A.nav-bar-border-b {=0Aborder-bottom: 1px solid #d9d9d6;=0A}=0A=0A.in-img=
+ td,=0A.in-img img {=0Awidth: 100% !important;=0Aheight: auto !important;=
+=0A}=0A=0A.pad-0,=0A.pad-0-sm div {=0Apadding: 0 !important;=0A}=0A=0A.pad-=
+0-t,=0A.pad-0-t-sm div {=0Apadding-top: 0 !important;=0A}=0A=0A.pad-0-b,=0A=
+.pad-0-b-sm div {=0Apadding-bottom: 0 !important;=0A}=0A=0A.pad-0-l,=0A.pad=
+-0-l-sm div {=0Apadding-left: 0 !important;=0A}=0A=0A.pad-0-r,=0A.pad-0-r-s=
+m div {=0Apadding-right: 0 !important;=0A}=0A=0A.pad-0-lr,=0A.pad-0-lr-sm d=
+iv {=0Apadding-left: 0 !important;=0Apadding-right: 0 !important;=0A}=0A=0A=
+.pad-0-tb,=0A.pad-0-tb-sm div {=0Apadding-top: 0 !important;=0Apadding-bott=
+om: 0 !important;=0A}=0A=0A.pad-1,=0A.pad-1-sm div {=0Apadding: 10px !impor=
+tant;=0A}=0A=0A.pad-1-t,=0A.pad-1-t-sm div {=0Apadding-top: 10px !important=
+;=0A}=0A=0A.pad-1-b,=0A.pad-1-b-sm div {=0Apadding-bottom: 10px !important;=
+=0A}=0A=0A.pad-1-l,=0A.pad-1-l-sm div {=0Apadding-left: 10px !important;=0A=
+}=0A=0A.pad-1-r,=0A.pad-1-r-sm div {=0Apadding-right: 10px !important;=0A}=
+=0A=0A.pad-1-lr,=0A.pad-1-lr-sm div {=0Apadding-left: 10px !important;=0Apa=
+dding-right: 10px !important;=0A}=0A=0A.pad-1-tb,=0A.pad-1-tb-sm div {=0Apa=
+dding-top: 10px !important;=0Apadding-bottom: 10px !important;=0A}=0A=0A.pa=
+d-2,=0A.pad-2-sm div {=0Apadding: 20px !important;=0A}=0A=0A.pad-2-t,=0A.pa=
+d-2-t-sm div {=0Apadding-top: 20px !important;=0A}=0A=0A.pad-2-b,=0A.pad-2-=
+b-sm div {=0Apadding-bottom: 20px !important;=0A}=0A=0A.pad-2-l,=0A.pad-2-l=
+-sm div {=0Apadding-left: 20px !important;=0A}=0A=0A.pad-2-r,=0A.pad-2-r-sm=
+ div {=0Apadding-right: 20px !important;=0A}=0A=0A.pad-2-lr,=0A.pad-2-lr-sm=
+ div {=0Apadding-left: 20px !important;=0Apadding-right: 20px !important;=
+=0A}=0A=0A.pad-2-tb,=0A.pad-2-tb-sm div {=0Apadding-top: 20px !important;=
+=0Apadding-bottom: 20px !important;=0A}=0A=0A.pad-3,=0A.pad-3-sm div {=0Apa=
+dding: 30px !important;=0A}=0A=0A.pad-3-t,=0A.pad-3-t-sm div {=0Apadding-to=
+p: 30px !important;=0A}=0A=0A.pad-3-b,=0A.pad-3-b-sm div {=0Apadding-bottom=
+: 30px !important;=0A}=0A=0A.pad-3-l,=0A.pad-3-l-sm div {=0Apadding-left: 3=
+0px !important;=0A}=0A=0A.pad-3-r,=0A.pad-3-r-sm div {=0Apadding-right: 30p=
+x !important;=0A}=0A=0A.pad-3-lr,=0A.pad-3-lr-sm div {=0Apadding-left: 30px=
+ !important;=0Apadding-right: 30px !important;=0A}=0A=0A.pad-3-tb,=0A.pad-3=
+-tb-sm div {=0Apadding-top: 30px !important;=0Apadding-bottom: 30px !import=
+ant;=0A}=0A=0A.pad-4,=0A.pad-4-sm div {=0Apadding: 40px !important;=0A}=0A=
+=0A.pad-4-t,=0A.pad-4-t-sm div {=0Apadding-top: 40px !important;=0A}=0A=0A.=
+pad-4-b,=0A.pad-4-b-sm div {=0Apadding-bottom: 40px !important;=0A}=0A=0A.p=
+ad-4-l,=0A.pad-4-l-sm div {=0Apadding-left: 40px !important;=0A}=0A=0A.pad-=
+4-r,=0A.pad-4-r-sm div {=0Apadding-right: 40px !important;=0A}=0A=0A.pad-4-=
+lr,=0A.pad-4-lr-sm div {=0Apadding-left: 40px !important;=0Apadding-right: =
+40px !important;=0A}=0A=0A.pad-4-tb,=0A.pad-4-tb-sm div {=0Apadding-top: 40=
+px !important;=0Apadding-bottom: 40px !important;=0A}=0A=0A.dt,=0A.dt div {=
+=0Afont-weight: bold !important;=0A}=0A=0A.dls-gray-06,=0A.dls-gray-06 div =
+{=0Acolor: #333 !important;=0A}=0A=0A.dls-gray-06-bg,=0A.dls-gray-06-bg div=
+ {=0Abackground-color: #333 !important;=0A}=0A=0A.dls-gray-06-bg-hvr:hover,=
+=0A.dls-gray-06-bg-hvr div:hover {=0Abackground-color: #333 !important;=0A}=
+=0A=0A=0A.body-5 =0Afont-family: "Helvetica Neue", Helvetica, sans-serif;=
+=0Afont-weight: 400;=0Afont-size: 26px;=0Aline-height: 34px;=0A=0A=0A.dls-g=
+ray-06 =0Acolor: #333;=0A=0A=0A.dls-gray-06-bg =0Abackground-color: #333;=
+=0A=0A=0A.dls-gray-07 =0Acolor: #d9d9d6;=0A=0A=0A.dls-gray-07-bg =0Abackgro=
+und-color: #d9d9d6;=0A=0A=0A.dls-gray-07-bg-hvr:hover =0Abackground-color: =
+#d9d9d6;=0A=0A=0A.text-underline-none =0Atext-decoration: none;=0A=0A=0A.pa=
+d-0-d,=0A.pad-0-d-sm div =0Apadding: 0 !important;=0A=0A=0A@media all and (=
+max-width: 480px) =0A=0A/* START: Progress Tracker Mobile CSS */=0A.step tb=
+ody tr {=0Adisplay: inline-block !important;=0A}=0A=0A.divider tbody td p {=
+=0Aborder-left-width: 2px;=0Aborder-left-style: solid;=0Aheight: 20px;=0Abo=
+rder-top: 0 !important;=0A}=0A=0A.divider tbody td {=0Apadding-top: 0 !impo=
+rtant;=0A}=0A=0A.divider {=0Apadding-left: 22px !important;=0A}=0A=0A.blue-=
+border tbody td p {=0Aborder-left-color: #006FCF;=0A}=0A=0A.grey-border tbo=
+dy td p {=0Aborder-left-color: #97999b;=0A}=0A=0Adiv.ptracker-image-section=
+ {=0Adisplay: inline-block;=0Avertical-align: middle;=0Awidth: 20% !importa=
+nt;=0A}=0A=0Adiv.ptracker-label-section {=0Adisplay: inline-block;=0Avertic=
+al-align: middle;=0Awidth: 51% !important;=0A}=0A=0Adiv.step-label3,=0Adiv.=
+step-label4 {=0Amax-width: 310px !important;=0Awidth: 100% !important;=0A}=
+=0A=0Atd.step-text {=0Aheight: 68px;=0Avertical-align: middle;=0Apadding: 0=
+ !important;=0A}=0A=0A.step-text div {=0Apadding: 0 !important;=0Awidth: 10=
+0% !important;=0Atext-align: left !important;=0A}=0A=0A/* END: Progress Tra=
+cker Mobile CSS */=0A.mj-custom-column-per-20 {=0Awidth: 20% !important;=0A=
+}=0A=0A.mj-custom-column-per-80 {=0Awidth: 80% !important;=0A}=0A=0A/* Imag=
+e Module CSS for mobile */=0A.squareImgSize td,=0A.squareImgSize img {=0Awi=
+dth: 230px !important;=0Aheight: 230px !important;=0A}=0A=0A.portraitImgSiz=
+e td,=0A.portraitImgSize img {=0Awidth: 230px !important;=0Aheight: 460px !=
+important;=0A}=0A=0A.landscapeImgSize td,=0A.landscapeImgSize img {=0Awidth=
+: 230px !important;=0Aheight: 96px !important;=0Amax-height: 96px !importan=
+t;=0A}=0A=0A.imageContent>table>tbody>tr>td {=0Apadding: 0px !important;=0A=
+}=0A=0A/* END Image Module CSS for mobile */=0A=0A=0A.margin-negative-10 di=
+v =0Amargin: 0 -10px;=0A=0A=0Aa[x-apple-data-detectors] =0Acolor: inherit !=
+important;=0Atext-decoration: none !important;=0Afont-size: inherit !import=
+ant;=0Afont-family: inherit !important;=0Afont-weight: inherit !important;=
+=0Aline-height: inherit !important;=0A=0A=0A/* Start Image Module CSS for d=
+esktop */=0A.landscapeImgSize td,=0A.landscapeImgSize img =0Amax-height: 22=
+0px !important;=0A=0A=0A.table-layout-fixed>table table =0Atable-layout: fi=
+xed;=0A=0A=0A.word-break-all =0Awidth: 100%;=0Aword-break: break-all;=0Awor=
+d-wrap: break-word;=0A=0A=0A/* END Image Module CSS for desktop */=0A/* Par=
+tner Logo CSS */=0A.horizontalLogo td,=0A.horizontalLogo img =0Amax-height:=
+ 60px;=0A=0A=0A/* END Partner Logo CSS */=0A/* START: Progress Tracker Desk=
+top CSS */=0A.ptracker-l4-section-outlook =0Awidth: 560px !important;=0A=0A=
+=0A.ptracker-l3-section-outlook =0Awidth: 620px !important;=0A=0A=0A.step-l=
+abel3-outlook =0Apadding-left: 30px !important;=0Apadding-right: 30px !impo=
+rtant;=0A=0A=0Adiv.step-label4 =0Amax-width: 22.5%;=0Awidth: 22.5%;=0A=0A=
+=0Adiv.step-label3 =0Amax-width: 33%;=0Awidth: 33%;=0A=0A=0A.step-text div =
+=0Awidth: 120px !important;=0A=0A=0A/* END: Progress Tracker Desktop CSS */=
+=0A/* Start ADA Styles */=0A*:focus =0Aoutline-offset: 4px;=0Aoutline: #006=
+FCF solid 2px;=0Aborder-radius: 1px;=0A=0A=0A/* End ADA Styles */     =A4=
+=AA=BF=CD=98=94=A4=CE=A5=A2=A5=AB=A5=A6=A5=F3=A5=C8=A4=CB=E9v=A4=B9=A4=EB=
+=D6=D8=D2=AA=A4=CA=A4=AA=D6=AA=A4=E9=A4=BB      =A5=AB=A9`=A5=C9=B7=AC=BA=
+=C5=A3=A8=CF=C25=E8=EC=A3=A9:    92009                            =A1=BEAME=
+RICAN     EXPRESS=A1=BF=A4=B4=D5=88=C7=F3=BD=F0=EE~=B4_=B6=A8=A4=CE=A4=B4=
+=B0=B8=C4=DA       =C6=BD=CB=D8=A4=CF=A5=A2=A5=E1=A5=EA=A5=AB=A5=F3?=A5=A8=
+=A5=AD=A5=B9=A5=D7=A5=EC=A5=B9=A4=CE=A5=AB=A9`=A5=C9=A4=F2=A4=B4=C0=FB=D3=
+=C3=A4=A4=A4=BF=A4=C0=A4=AD=A1=A2=D5\=A4=CB=A4=A2=A4=EA=A4=AC=A4=C8=A4=A6=
+=A4=B4=A4=B6=A4=A4=A4=DE=A4=B9=A1=A3 =A4=B4=D5=88=C7=F3=BD=F0=EE~=A4=AC=B4_=
+=B6=A8=A4=B7=A4=DE=A4=B7=A4=BF=A4=CE=A4=C7=A1=A2=A1=B8=A5=AA=A5=F3=A5=E9=A5=
+=A4=A5=F3?=A5=B5=A9`=A5=D3=A5=B9=A1=B9=A4=D8  =A5=ED=A5=B0=A5=A4=A5=F3=A4=
+=CE=A4=A6=A4=A8=A1=A2=A4=B4=B4_=D5J=A4=AF=A4=C0=A4=B5=A4=A4=A1=A3  =A1=B8=
+=A5=AA=A5=F3=A5=E9=A5=A4=A5=F3?=A5=B5=A9`=A5=D3=A5=B9=A1=B9=A4=D8=A5=ED=A5=
+=B0=A5=A4=A5=F3  =A1=B8=BF=DA=D7=F9=D5=F1=CC=E6=A4=CE=A4=AA=D6=AA=A4=E9=A4=
+=BB=A1=B9=A4=E2=BA=CF=A4=EF=A4=BB=A4=C6=A4=B4=C0=FB=D3=C3=A4=AF=A4=C0=A4=B5=
+=A4=A4=A1=A3 =BF=DA=D7=F9=A4=CE=D5=F1=CC=E6=BD=F0=EE~=A4=C8=D5=F1=CC=E6=C8=
+=D5=A4=F2=A1=A2=D5=F1=CC=E6=C8=D5=A4=CE2 -  5=C8=D5=C7=B0=A4=CBE=A5=E1=A9`=
+=A5=EB=A4=C7=A4=AA=D6=AA=A4=E9=A4=BB=A4=B9=A4=EB=B1=E3=C0=FB=A4=CA=A5=B5=A9=
+`=A5=D3=A5=B9=A4=C7=A4=B9=A1=A3=A4=B3=A4=CE=99C=BB=E1=A4=CB=A4=BC=A4=D2=A1=
+=A2=A4=B4=B5=C7=E5h=A4=AF=A4=C0=A4=B5=A4=A4=A1=A3=D4=94=BC=9A=A4=CF=A4=B3=
+=A4=C1=A4=E9    =A4=AA=86=96=A4=A4=BA=CF=A4=EF=A4=BB  =A4=AA=BF=CD=A4=B5=A4=
+=DE=C7=E9=88=F3=B1=A3=D7o=A4=CE=A4=BF=A4=E1=A1=A2=A4=B4=C0=FB=D3=C3=C3=F7=
+=BC=9A=A4=CE=D4=94=BC=9A=A4=CA=A4=C9=A4=CFE=A5=E1=A9`=A5=EB=A4=C7=A4=B4=B0=
+=B8=C4=DA=A4=A4=A4=BF=A4=B7=A4=C6=A4=AA=A4=EA=A4=DE=A4=BB=A4=F3=A1=A3=A5=AB=
+=A9`=A5=C9=A4=CE=A4=B4=C0=FB=D3=C3=A4=AC=A4=CA=A4=A4=D4=C2=A4=CF=A1=B8=A5=
+=AA=A5=F3=A5=E9=A5=A4=A5=F3=C3=F7=BC=9A=95=F8=A1=B9=A4=CF=D7=F7=B3=C9=A4=B5=
+=A4=EC=A4=DE=A4=BB=A4=F3=A1=A3=A4=DE=A4=BF=A1=A2E=A5=E1=A9`=A5=EB=A4=CB=A4=
+=E8=A4=EB=A4=B4=B0=B8=C4=DA=A4=E2=A4=B4=A4=B6=A4=A4=A4=DE=A4=BB=A4=F3=A1=A3=
+=A1=B8=A5=AA=A5=F3=A5=E9=A5=A4=A5=F3=C3=F7=BC=9A=95=F8=A5=B5=A9`=A5=D3=A5=
+=B9=A1=B9=A4=CB=A4=B4=B5=C7=E5h=A4=B5=A4=EC=A4=C6=A4=A4=A4=C6=A4=E2=A1=A2=
+=B7=D6=B8=EE=92B=A4=A4=A4=AA=A4=E8=A4=D3=A5=EA=A5=DC=A5=EB=A5=D3=A5=F3=A5=
+=B0=92B=A4=A4=A4=CE=A4=B4=C0=FB=D3=C3=A4=AC=A4=A2=A4=EB=88=F6=BA=CF=A1=A2=
+=A5=DC=A9`=A5=CA=A5=B9=92B=A4=A4=A4=CE=D5=88=C7=F3=D4=C2?=D6=A7=92B=A4=A4=
+=CD=EA=C1=CB=D4=C2=A1=A2=A5=AD=A5=E3=A5=C3=A5=B7=A5=F3=A5=B0=A1=A2=A5=AB=A9=
+`=A5=C9?=A5=ED=A9`=A5=F3=A4=B4=D5=88=C7=F3=B2=D0=B8=DF=A4=AC=A4=A2=A4=EB=88=
+=F6=BA=CF=A3=A8=B7=A8=C1=EE=A4=CB=B6=A8=A4=E1=A4=E9=A4=EC=A4=C6=A4=A4=A4=EB=
+=95=F8=C3=E6=BD=BB=B8=B6=C1x=84=D5=A4=CB=BB=F9=A4=C5=A4=AD=A4=DE=A4=B9=A3=
+=A9=A1=A2=A4=DE=A4=BF=A4=BD=A4=CE=CB=FB=B5=B1=C9=E7=A4=AC=B1=D8=D2=AA=A4=C8=
+=D5J=A4=E1=A4=BF=88=F6=BA=CF=A4=CB=A4=CF=A1=A2=A1=B8=A5=AB=A9`=A5=C9=A4=B4=
+=C0=FB=D3=C3=B4=FA=BD=F0=C3=F7=BC=9A=95=F8=A1=B9=A4=F2=E0]=CB=CD=A4=B5=A4=
+=BB=A4=C6=A4=A4=A4=BF=A4=C0=A4=AD=A4=DE=A4=B9=A1=A3=A4=B4=C8=EB=C1=A6=A4=A4=
+=A4=BF=A4=C0=A4=A4=A4=BFE=A5=E1=A9`=A5=EB=A5=A2=A5=C9=A5=EC=A5=B9=A4=CB=D5`=
+=A4=EA=A4=AC=A4=A2=A4=C3=A4=BF=A4=EA=A1=A2=CD=A8=D0=C5=D5=CF=BA=A6=B5=C8=A4=
+=CB=A4=E8=A4=EAE=A5=E1=A9`=A5=EB=A4=F2=A4=AA=CB=CD=A4=EA=A4=C7=A4=AD=A4=CA=
+=A4=A4=88=F6=BA=CF=A4=CF=A1=A2=A4=B4=B5=C7=E5h=A4=CE=A4=B4=C0=FB=D3=C3=B4=
+=FA=BD=F0=C3=F7=BC=9A=95=F8=CB=CD=B8=B6=CF=C8=A4=D8=A1=A2=A4=BD=A4=CE=D6=BC=
+=A4=F2=D3=9B=DDd=A4=B7=A4=BF=A4=AA=CA=D6=BC=88=A4=F2=E0]=CB=CD=A4=B5=A4=BB=
+=A4=C6=A4=A4=A4=BF=A4=C0=A4=AF=88=F6=BA=CF=A4=AC=A4=B4=A4=B6=A4=A4=A4=DE=A4=
+=B9=A1=A3=C5=E4=D0=C5=A5=A2=A5=C9=A5=EC=A5=B9=A4=CE=89=E4=B8=FC=A4=CF=A1=A2=
+=A1=B8=A5=AA=A5=F3=A5=E9=A5=A4=A5=F3?=A5=B5=A9`=A5=D3=A5=B9=A1=B9=A4=CE"=A4=
+=B4=B5=C7=E5h=C7=E9=88=F3=A4=CE=89=E4=B8=FC"=A4=E8=A4=EA=A4=AA=CA=D6=BEA=A4=
+=AD=A4=AF=A4=C0=A4=B5=A4=A4=A1=A3=A4=B3=A4=CE=A5=E1=A9`=A5=EB=A4=CF=CB=CD=
+=D0=C5=8C=9F=D3=C3=A5=E1=A9`=A5=EB=A5=A2=A5=C9=A5=EC=A5=B9=A4=AB=A4=E9=D7=
+=D4=84=D3=CB=CD=D0=C5=A4=B5=A4=EC=A4=C6=A4=A4=A4=DE=A4=B9=A1=A3=A4=B4=B7=B5=
+=D0=C5=A4=A4=A4=BF=A4=C0=A4=A4=A4=C6=A4=E2=A4=AA=8F=EA=A4=A8=A4=A4=A4=BF=A4=
+=B7=A4=AB=A4=CD=A4=DE=A4=B9=A4=CE=A4=C7=A1=A2=A4=B4=C1=CB=B3=D0=A4=AF=A4=C0=
+=A4=B5=A4=A4=A1=A3 =A1=BE=C5=E4=D0=C5=D4=AA=A1=BF =A5=A2=A5=E1=A5=EA=A5=AB=
+=A5=F3?=A5=A8=A5=AD=A5=B9=A5=D7=A5=EC=A5=B9?=A5=A4=A5=F3=A5=BF=A9`=A5=CA=A5=
+=B7=A5=E7=A5=CA=A5=EB,Inc=A3=AE=A8=93105-6920  =96|=BE=A9=B6=BC=B8=DB=C7=F8=
+=BB=A2=A5=CE=E9T4=B6=A1=C4=BF1=B7=AC1=BA=C5americanexpress.co.jp Copyright =
+(c) 2025 American Express International, Inc. All Rights Reserved. SAM0FYI6=
+88   
+--66dee22a72e2c58e2c76e85e0007a6d1
+Content-Type: text/html; charset="GBK"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML>=0D=0A<!DOCTYPE html PUBLIC "" ""><HTML><HEAD> =0D=0A<META h=
+ttp-equiv=3D"Content-Type" =0D=0Acontent=3D"text/html; charset=3DUTF-8"><TI=
+TLE>[AMERICAN EXPRESS] =A4=B4=D5=88=C7=F3=BD=F0=EE~=B4_=B6=A8=A4=CE=A4=B4=
+=B0=B8=C4=DA</TITLE><!--[if !mso]><!-- --> =0D=0A=0D=0A<META http-equiv=3D"=
+X-UA-Compatible" content=3D"IE=3Dedge"><!--<![endif]--> =0D=0A<META name=3D=
+"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1"> =0D=0A<STYLE=
+ type=3D"text/css">#outlook a =0A      padding: 0;=0A    =0A=0A    body =0A=
+      margin: 0;=0A      padding: 0;=0A      -webkit-text-size-adjust: 100%=
+;=0A      -ms-text-size-adjust: 100%;=0A    =0A=0A    table,=0A    td =0A  =
+    border-collapse: collapse;=0A      mso-table-lspace: 0pt;=0A      mso-t=
+able-rspace: 0pt;=0A    =0A=0A    img =0A      border: 0;=0A      height: a=
+uto;=0A      line-height: 100%;=0A      outline: none;=0A      text-decorat=
+ion: none;=0A      -ms-interpolation-mode: bicubic;=0A    =0A=0A    p =0A  =
+    display: block;=0A      margin: 13px 0;=0A    </STYLE>=0D=0A   <!--[if =
+mso]>=0A        <xml>=0A        <o:OfficeDocumentSettings>=0A          <o:A=
+llowPNG/>=0A          <o:PixelsPerInch>96</o:PixelsPerInch>=0A        </o:O=
+fficeDocumentSettings>=0A        </xml>=0A        <![endif]--><!--[if lte m=
+so 11]>=0A        <style type=3D"text/css">=0A          .mj-outlook-group-f=
+ix  width:100% !important; =0A        </style>=0A        <![endif]--><!--[i=
+f gte mso 9]>=0A        <style>=0A        li =0A            text-indent: -1=
+em;=0A        =0A        </style>=0A        <![endif]--> =0D=0A=0D=0A<STYLE=
+ type=3D"text/css">@media only screen and (min-width:480px) =0A      .mj-co=
+lumn-per-100 {=0A        width: 100% !important;=0A        max-width: 100%;=
+=0A      }=0A=0A      .mj-column-per-6 {=0A        width: 6% !important;=0A=
+        max-width: 6%;=0A      }=0A=0A      .mj-column-per-10 {=0A        w=
+idth: 10% !important;=0A        max-width: 10%;=0A      }=0A=0A      .mj-co=
+lumn-per-78 {=0A        width: 78% !important;=0A        max-width: 78%;=0A=
+      }=0A=0A      .mj-column-per-50 {=0A        width: 50% !important;=0A =
+       max-width: 50%;=0A      }=0A    </STYLE>=0D=0A   =0D=0A<STYLE type=
+=3D"text/css">@media only screen and (max-width:479px) =0A      table.mj-fu=
+ll-width-mobile {=0A        width: 100% !important;=0A      }=0A=0A      td=
+.mj-full-width-mobile {=0A        width: auto !important;=0A      }=0A    <=
+/STYLE>=0D=0A   =0D=0A<STYLE type=3D"text/css">@media all and (max-width: 4=
+80px) =0A=0A      .mobile-body div:first-child,=0A      .mobile-body div {=
+=0A        margin: 0 auto !important;=0A        max-width: 310px !important=
+;=0A      }=0A=0A      .body-1,=0A      .body-1 div {=0A        font-size: =
+12px !important;=0A        font-weight: 400 !important;=0A        line-heig=
+ht: 17px !important;=0A      }=0A=0A      .body-4,=0A      .body-4 div {=0A=
+        font-size: 22px !important;=0A        font-weight: 400 !important;=
+=0A        line-height: 30px !important;=0A      }=0A=0A      .dls-logo-blu=
+ebox-solid-sm,=0A      .dls-logo-bluebox-solid-sm img {=0A        width: 45=
+px !important;=0A        height: 45px !important;=0A      }=0A=0A      .dls=
+-card-xs,=0A      .dls-card-xs img {=0A        width: 70px !important;=0A  =
+      height: 44px !important;=0A      }=0A=0A      .text-align-center,=0A =
+     .text-align-center div {=0A        text-align: center !important;=0A  =
+    }=0A=0A      .text-align-left,=0A      .text-align-left div {=0A       =
+ text-align: left !important;=0A      }=0A=0A      .btn-align-center,=0A   =
+   .btn-align-center table {=0A        text-align: center !important;=0A   =
+   }=0A=0A      .btn-align-center table {=0A        margin: 0 auto !importa=
+nt;=0A      }=0A=0A      .dls-tagline-blue-sm td,=0A      .dls-tagline-blue=
+-sm img {=0A        width: 220px !important;=0A      }=0A=0A      .nav-bar-=
+border-b {=0A        border-bottom: 1px solid #d9d9d6;=0A      }=0A=0A     =
+ .in-img td,=0A      .in-img img {=0A        width: 100% !important;=0A    =
+    height: auto !important;=0A      }=0A=0A      .pad-0,=0A      .pad-0-sm=
+ div {=0A        padding: 0 !important;=0A      }=0A=0A      .pad-0-t,=0A  =
+    .pad-0-t-sm div {=0A        padding-top: 0 !important;=0A      }=0A=0A =
+     .pad-0-b,=0A      .pad-0-b-sm div {=0A        padding-bottom: 0 !impor=
+tant;=0A      }=0A=0A      .pad-0-l,=0A      .pad-0-l-sm div {=0A        pa=
+dding-left: 0 !important;=0A      }=0A=0A      .pad-0-r,=0A      .pad-0-r-s=
+m div {=0A        padding-right: 0 !important;=0A      }=0A=0A      .pad-0-=
+lr,=0A      .pad-0-lr-sm div {=0A        padding-left: 0 !important;=0A    =
+    padding-right: 0 !important;=0A      }=0A=0A      .pad-0-tb,=0A      .p=
+ad-0-tb-sm div {=0A        padding-top: 0 !important;=0A        padding-bot=
+tom: 0 !important;=0A      }=0A=0A      .pad-1,=0A      .pad-1-sm div {=0A =
+       padding: 10px !important;=0A      }=0A=0A      .pad-1-t,=0A      .pa=
+d-1-t-sm div {=0A        padding-top: 10px !important;=0A      }=0A=0A     =
+ .pad-1-b,=0A      .pad-1-b-sm div {=0A        padding-bottom: 10px !import=
+ant;=0A      }=0A=0A      .pad-1-l,=0A      .pad-1-l-sm div {=0A        pad=
+ding-left: 10px !important;=0A      }=0A=0A      .pad-1-r,=0A      .pad-1-r=
+-sm div {=0A        padding-right: 10px !important;=0A      }=0A=0A      .p=
+ad-1-lr,=0A      .pad-1-lr-sm div {=0A        padding-left: 10px !important=
+;=0A        padding-right: 10px !important;=0A      }=0A=0A      .pad-1-tb,=
+=0A      .pad-1-tb-sm div {=0A        padding-top: 10px !important;=0A     =
+   padding-bottom: 10px !important;=0A      }=0A=0A      .pad-2,=0A      .p=
+ad-2-sm div {=0A        padding: 20px !important;=0A      }=0A=0A      .pad=
+-2-t,=0A      .pad-2-t-sm div {=0A        padding-top: 20px !important;=0A =
+     }=0A=0A      .pad-2-b,=0A      .pad-2-b-sm div {=0A        padding-bot=
+tom: 20px !important;=0A      }=0A=0A      .pad-2-l,=0A      .pad-2-l-sm di=
+v {=0A        padding-left: 20px !important;=0A      }=0A=0A      .pad-2-r,=
+=0A      .pad-2-r-sm div {=0A        padding-right: 20px !important;=0A    =
+  }=0A=0A      .pad-2-lr,=0A      .pad-2-lr-sm div {=0A        padding-left=
+: 20px !important;=0A        padding-right: 20px !important;=0A      }=0A=
+=0A      .pad-2-tb,=0A      .pad-2-tb-sm div {=0A        padding-top: 20px =
+!important;=0A        padding-bottom: 20px !important;=0A      }=0A=0A     =
+ .pad-3,=0A      .pad-3-sm div {=0A        padding: 30px !important;=0A    =
+  }=0A=0A      .pad-3-t,=0A      .pad-3-t-sm div {=0A        padding-top: 3=
+0px !important;=0A      }=0A=0A      .pad-3-b,=0A      .pad-3-b-sm div {=0A=
+        padding-bottom: 30px !important;=0A      }=0A=0A      .pad-3-l,=0A =
+     .pad-3-l-sm div {=0A        padding-left: 30px !important;=0A      }=
+=0A=0A      .pad-3-r,=0A      .pad-3-r-sm div {=0A        padding-right: 30=
+px !important;=0A      }=0A=0A      .pad-3-lr,=0A      .pad-3-lr-sm div {=
+=0A        padding-left: 30px !important;=0A        padding-right: 30px !im=
+portant;=0A      }=0A=0A      .pad-3-tb,=0A      .pad-3-tb-sm div {=0A     =
+   padding-top: 30px !important;=0A        padding-bottom: 30px !important;=
+=0A      }=0A=0A      .pad-4,=0A      .pad-4-sm div {=0A        padding: 40=
+px !important;=0A      }=0A=0A      .pad-4-t,=0A      .pad-4-t-sm div {=0A =
+       padding-top: 40px !important;=0A      }=0A=0A      .pad-4-b,=0A     =
+ .pad-4-b-sm div {=0A        padding-bottom: 40px !important;=0A      }=0A=
+=0A      .pad-4-l,=0A      .pad-4-l-sm div {=0A        padding-left: 40px !=
+important;=0A      }=0A=0A      .pad-4-r,=0A      .pad-4-r-sm div {=0A     =
+   padding-right: 40px !important;=0A      }=0A=0A      .pad-4-lr,=0A      =
+.pad-4-lr-sm div {=0A        padding-left: 40px !important;=0A        paddi=
+ng-right: 40px !important;=0A      }=0A=0A      .pad-4-tb,=0A      .pad-4-t=
+b-sm div {=0A        padding-top: 40px !important;=0A        padding-bottom=
+: 40px !important;=0A      }=0A=0A      .dt,=0A      .dt div {=0A        fo=
+nt-weight: bold !important;=0A      }=0A=0A      .dls-gray-06,=0A      .dls=
+-gray-06 div {=0A        color: #333 !important;=0A      }=0A=0A      .dls-=
+gray-06-bg,=0A      .dls-gray-06-bg div {=0A        background-color: #333 =
+!important;=0A      }=0A=0A      .dls-gray-06-bg-hvr:hover,=0A      .dls-gr=
+ay-06-bg-hvr div:hover {=0A        background-color: #333 !important;=0A   =
+   }=0A    =0A=0A    .body-5 =0A      font-family: "Helvetica Neue", Helvet=
+ica, sans-serif;=0A      font-weight: 400;=0A      font-size: 26px;=0A     =
+ line-height: 34px;=0A    =0A=0A    .dls-gray-06 =0A      color: #333;=0A  =
+  =0A=0A    .dls-gray-06-bg =0A      background-color: #333;=0A    =0A=0A  =
+  .dls-gray-07 =0A      color: #d9d9d6;=0A    =0A=0A    .dls-gray-07-bg =0A=
+      background-color: #d9d9d6;=0A    =0A=0A    .dls-gray-07-bg-hvr:hover =
+=0A      background-color: #d9d9d6;=0A    =0A=0A    .text-underline-none =
+=0A      text-decoration: none;=0A    =0A=0A    .pad-0-d,=0A    .pad-0-d-sm=
+ div =0A      padding: 0 !important;=0A    =0A=0A    @media all and (max-wi=
+dth: 480px) =0A=0A      /* START: Progress Tracker Mobile CSS */=0A      .s=
+tep tbody tr {=0A        display: inline-block !important;=0A      }=0A=0A =
+     .divider tbody td p {=0A        border-left-width: 2px;=0A        bord=
+er-left-style: solid;=0A        height: 20px;=0A        border-top: 0 !impo=
+rtant;=0A      }=0A=0A      .divider tbody td {=0A        padding-top: 0 !i=
+mportant;=0A      }=0A=0A      .divider {=0A        padding-left: 22px !imp=
+ortant;=0A      }=0A=0A      .blue-border tbody td p {=0A        border-lef=
+t-color: #006FCF;=0A      }=0A=0A      .grey-border tbody td p {=0A        =
+border-left-color: #97999b;=0A      }=0A=0A      div.ptracker-image-section=
+ {=0A        display: inline-block;=0A        vertical-align: middle;=0A   =
+     width: 20% !important;=0A      }=0A=0A      div.ptracker-label-section=
+ {=0A        display: inline-block;=0A        vertical-align: middle;=0A   =
+     width: 51% !important;=0A      }=0A=0A      div.step-label3,=0A      d=
+iv.step-label4 {=0A        max-width: 310px !important;=0A        width: 10=
+0% !important;=0A      }=0A=0A      td.step-text {=0A        height: 68px;=
+=0A        vertical-align: middle;=0A        padding: 0 !important;=0A     =
+ }=0A=0A      .step-text div {=0A        padding: 0 !important;=0A        w=
+idth: 100% !important;=0A        text-align: left !important;=0A      }=0A=
+=0A      /* END: Progress Tracker Mobile CSS */=0A      .mj-custom-column-p=
+er-20 {=0A        width: 20% !important;=0A      }=0A=0A      .mj-custom-co=
+lumn-per-80 {=0A        width: 80% !important;=0A      }=0A=0A      /* Imag=
+e Module CSS for mobile */=0A      .squareImgSize td,=0A      .squareImgSiz=
+e img {=0A        width: 230px !important;=0A        height: 230px !importa=
+nt;=0A      }=0A=0A      .portraitImgSize td,=0A      .portraitImgSize img =
+{=0A        width: 230px !important;=0A        height: 460px !important;=0A=
+      }=0A=0A      .landscapeImgSize td,=0A      .landscapeImgSize img {=0A=
+        width: 230px !important;=0A        height: 96px !important;=0A     =
+   max-height: 96px !important;=0A      }=0A=0A      .imageContent>table>tb=
+ody>tr>td {=0A        padding: 0px !important;=0A      }=0A=0A      /* END =
+Image Module CSS for mobile */=0A    =0A=0A    .margin-negative-10 div =0A =
+     margin: 0 -10px;=0A    =0A=0A    a[x-apple-data-detectors] =0A      co=
+lor: inherit !important;=0A      text-decoration: none !important;=0A      =
+font-size: inherit !important;=0A      font-family: inherit !important;=0A =
+     font-weight: inherit !important;=0A      line-height: inherit !importa=
+nt;=0A    =0A=0A    /* Start Image Module CSS for desktop */=0A    .landsca=
+peImgSize td,=0A    .landscapeImgSize img =0A      max-height: 220px !impor=
+tant;=0A    =0A=0A    .table-layout-fixed>table table =0A      table-layout=
+: fixed;=0A    =0A=0A    .word-break-all =0A      width: 100%;=0A      word=
+-break: break-all;=0A      word-wrap: break-word;=0A    =0A=0A    /* END Im=
+age Module CSS for desktop */=0A    /* Partner Logo CSS */=0A    .horizonta=
+lLogo td,=0A    .horizontalLogo img =0A      max-height: 60px;=0A    =0A=0A=
+    /* END Partner Logo CSS */=0A    /* START: Progress Tracker Desktop CSS=
+ */=0A    .ptracker-l4-section-outlook =0A      width: 560px !important;=0A=
+    =0A=0A    .ptracker-l3-section-outlook =0A      width: 620px !important=
+;=0A    =0A=0A    .step-label3-outlook =0A      padding-left: 30px !importa=
+nt;=0A      padding-right: 30px !important;=0A    =0A=0A    div.step-label4=
+ =0A      max-width: 22.5%;=0A      width: 22.5%;=0A    =0A=0A    div.step-=
+label3 =0A      max-width: 33%;=0A      width: 33%;=0A    =0A=0A    .step-t=
+ext div =0A      width: 120px !important;=0A    =0A=0A    /* END: Progress =
+Tracker Desktop CSS */=0A    /* Start ADA Styles */=0A    *:focus =0A      =
+outline-offset: 4px;=0A      outline: #006FCF solid 2px;=0A      border-rad=
+ius: 1px;=0A    =0A=0A    /* End ADA Styles */</STYLE>=0D=0A   =0D=0A<META =
+name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001">  </HEAD> =0D=0A<BOD=
+Y role=3D"main" style=3D"background-color: rgb(217, 217, 214);">=0D=0A<DIV =
+class=3D"mobile-body" role=3D"article" lang=3D"ja" style=3D"background-colo=
+r: rgb(217, 217, 214);" =0D=0Adir=3D"auto" aria-label=3D"[AMERICAN EXPRESS]=
+ =A4=B4=D5=88=C7=F3=BD=F0=EE~=B4_=B6=A8=A4=CE=A4=B4=B0=B8=C4=DA" aria-roled=
+escription=3D"email"><!--[if mso | IE]><table align=3D"center" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=
+=3D"width:620px;" width=3D"620" bgcolor=3D"#ffffff" ><tr><td style=3D"line-=
+height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--> =0D=0A=
+=0D=0A<DIV =0D=0Astyle=3D"background: rgb(255, 255, 255); margin: 0px auto;=
+ max-width: 620px;">=0D=0A<TABLE align=3D"center" role=3D"presentation" sty=
+le=3D"background: rgb(255, 255, 255); width: 100%;" =0D=0Aborder=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0">=0D=0A  <TBODY>=0D=0A  <TR>=0D=0A    <TD st=
+yle=3D"padding: 0px; text-align: center; font-size: 0px; direction: ltr;"><=
+!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0"><tr><td class=3D"" width=3D"620px" ><table align=3D"cen=
+ter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"pr=
+esentation" style=3D"width:620px;" width=3D"620" ><tr><td style=3D"line-hei=
+ght:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--> =0D=0A   =
+                                 =0D=0A      <DIV style=3D"margin: 0px auto=
+; max-width: 620px;">=0D=0A      <TABLE align=3D"center" role=3D"presentati=
+on" style=3D"width: 100%;" border=3D"0" =0D=0A      cellspacing=3D"0" cellp=
+adding=3D"0">=0D=0A        <TBODY>=0D=0A        <TR>=0D=0A          <TD sty=
+le=3D"padding: 0px; text-align: center; font-size: 0px; direction: ltr;"><!=
+--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:620=
+px;" ><![endif]--> =0D=0A                                                  =
+                      =0D=0A            <DIV class=3D"mj-column-per-100 mj-=
+outlook-group-fix" style=3D"width: 100%; text-align: left; font-size: 0px; =
+vertical-align: top; display: inline-block; direction: ltr;">=0D=0A        =
+    <TABLE width=3D"100%" role=3D"presentation" border=3D"0" cellspacing=3D=
+"0" =0D=0A            cellpadding=3D"0">=0D=0A              <TBODY>=0D=0A  =
+            <TR>=0D=0A                <TD style=3D"padding: 0px; vertical-a=
+lign: top; background-color: rgb(217, 217, 214);">=0D=0A                  <=
+TABLE width=3D"100%" role=3D"presentation" border=3D"0" =0D=0A             =
+     cellspacing=3D"0" cellpadding=3D"0">=0D=0A                    <TBODY>=
+=0D=0A                    <TR>=0D=0A                      <TD align=3D"cent=
+er" style=3D"padding: 10px 25px; font-size: 0px;">=0D=0A                   =
+     <DIV style=3D'text-align: center; color: rgb(51, 51, 51); line-height:=
+ 20px; font-family: "Helvetica Neue", Roboto, Helvetica, sans-serif; font-s=
+ize: 13px; font-weight: 400;'>=0D=0A                        <P =0D=0A      =
+              style=3D"margin: 0px;">=A4=AA=BF=CD=98=94=A4=CE=A5=A2=A5=AB=
+=A5=A6=A5=F3=A5=C8=A4=CB=E9v=A4=B9=A4=EB=D6=D8=D2=AA=A4=CA=A4=AA=D6=AA=A4=
+=E9=A4=BB</P></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DI=
+V><!--[if mso | IE]></td></tr></table><![endif]--></TD></TR></TBODY></TABLE=
+></DIV><!--[if mso | IE]></td></tr></table></td></tr><tr><td class=3D"" wid=
+th=3D"620px" ><table align=3D"center" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"" role=3D"presentation" style=3D"width:620px;" width=
+=3D"620" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-ru=
+le:exactly;"><![endif]--> =0D=0A                                    =0D=0A =
+     <DIV style=3D"margin: 0px auto; max-width: 620px;">=0D=0A      <TABLE =
+align=3D"center" role=3D"presentation" style=3D"width: 100%;" border=3D"0" =
+=0D=0A      cellspacing=3D"0" cellpadding=3D"0">=0D=0A        <TBODY>=0D=0A=
+        <TR>=0D=0A          <TD style=3D"padding: 0px; text-align: center; =
+font-size: 0px; direction: ltr;"><!--[if mso | IE]><table role=3D"presentat=
+ion" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" st=
+yle=3D"vertical-align:top;width:620px;" ><![endif]--> =0D=0A               =
+                                                         =0D=0A            =
+<DIV class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"width: 100%;=
+ text-align: left; font-size: 0px; vertical-align: top; display: inline-blo=
+ck; direction: ltr;">=0D=0A            <TABLE width=3D"100%" role=3D"presen=
+tation" border=3D"0" cellspacing=3D"0" =0D=0A            cellpadding=3D"0">=
+=0D=0A              <TBODY>=0D=0A              <TR>=0D=0A                <T=
+D style=3D"padding: 0px; vertical-align: top;">=0D=0A                  <TAB=
+LE width=3D"100%" role=3D"presentation" border=3D"0" =0D=0A                =
+  cellspacing=3D"0" cellpadding=3D"0">=0D=0A                    <TBODY>=0D=
+=0A                    <TR>=0D=0A                      <TD align=3D"left" c=
+lass=3D"pad-1" style=3D"padding: 20px; font-size: 0px;">=0D=0A             =
+           <TABLE width=3D"100%" style=3D"border: currentColor; border-imag=
+e: none; width: 100%; color: rgb(0, 0, 0); line-height: 1; font-family: Ubu=
+ntu, Helvetica, Arial, sans-serif; font-size: 13px; table-layout: auto;" =
+=0D=0A                        border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">=0D=0A                          <TBODY>=0D=0A                          =
+<TR>=0D=0A                            <TD width=3D"15%" valign=3D"top"><IMG=
+ width=3D"60" =0D=0A                              height=3D"60" class=3D"dl=
+s-logo-bluebox-solid-sm" alt=3D"American Express Logo" =0D=0A              =
+                src=3D"https://cdaas.americanexpress.com/akamai/axp/comms/l=
+ogos/logo.png"></TD>=0D=0A                            <TD align=3D"right" c=
+lass=3D"pad-1-l pad-1-r" valign=3D"top" =0D=0A                            s=
+tyle=3D'color: rgb(51, 51, 51); padding-right: 10px; padding-left: 10px; fo=
+nt-family: "Helvetica Neue", Roboto, Helvetica, sans-serif; font-size: 15px=
+; font-weight: 500;'>=0D=0A                              <P class=3D"body-1=
+" style=3D"margin: 0px; line-height: 22px; display: inline-block;"><B>&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></P>=
+ =0D=0A                                                                    =
+             =0D=0A                                                        =
+                         =0D=0A                                            =
+                                     =0D=0A                                =
+                         =0D=0A                              <P class=3D"bo=
+dy-1" style=3D"margin: 0px; line-height: 22px; font-weight: normal;">=A5=AB=
+=A9`=A5=C9=B7=AC=BA=C5=A3=A8=CF=C25=E8=EC=A3=A9: =0D=0A                    =
+                                                             =0D=0A        =
+                                                                         =
+=0D=0A                                                   92009</P></TD>=0D=
+=0A                            <TD width=3D"17%" align=3D"right" valign=3D"=
+top"><IMG =0D=0A                              width=3D"96" height=3D"60" cl=
+ass=3D"dls-card-xs" alt=3D"Card Art" =0D=0A                              sr=
+c=3D"https://secure.cmax.americanexpress.com/Internet/CardArt/JAPA/jp-carda=
+sset-config/images/GJPPL5500000S2.gif"></TD></TR></TBODY></TABLE></TD></TR>=
+</TBODY></TABLE></TD></TR></TBODY></TABLE></DIV><!--[if mso | IE]></td></tr=
+></table><![endif]--></TD></TR></TBODY></TABLE></DIV><!--[if mso | IE]></td=
+></tr></table></td></tr><tr><td class=3D"" width=3D"620px" ><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=
+=3D"presentation" style=3D"width:620px;" width=3D"620" bgcolor=3D"#006fcf" =
+><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactl=
+y;"><![endif]--> =0D=0A                                    =0D=0A      <DIV=
+ style=3D"background: rgb(0, 111, 207); margin: 0px auto; max-width: 620px;=
+">=0D=0A      <TABLE align=3D"center" role=3D"presentation" style=3D"backgr=
+ound: rgb(0, 111, 207); width: 100%;" =0D=0A      border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">=0D=0A        <TBODY>=0D=0A        <TR>=0D=0A     =
+     <TD style=3D"padding: 0px; text-align: center; font-size: 0px; directi=
+on: ltr;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"" ><table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" rol=
+e=3D"presentation" style=3D"width:620px;" width=3D"620" ><tr><td style=3D"l=
+ine-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--> =
+=0D=0A                                                                     =
+   =0D=0A            <DIV style=3D"margin: 0px auto; max-width: 620px;">=0D=
+=0A            <TABLE align=3D"center" role=3D"presentation" style=3D"width=
+: 100%;" =0D=0A            border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+>=0D=0A              <TBODY>=0D=0A              <TR>=0D=0A                <=
+TD style=3D"padding: 0px; text-align: center; font-size: 0px; direction: lt=
+r;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0"><tr><td class=3D"" width=3D"620px" ><table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" rol=
+e=3D"presentation" style=3D"width:620px;" width=3D"620" bgcolor=3D"#006fcf"=
+ ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exact=
+ly;"><v:rect style=3D"width:620px;" xmlns:v=3D"urn:schemas-microsoft-com:vm=
+l" fill=3D"true" stroke=3D"false"><v:fill origin=3D"0.5, 0" position=3D"0.5=
+, 0" src=3D"https://cdaas.americanexpress.com/akamai/axp/comms/icons/hl-pat=
+tern-50pc.png" color=3D"#006fcf" type=3D"tile" /><v:textbox style=3D"mso-fi=
+t-shape-to-text:true" inset=3D"0,0,0,0"><![endif]--> =0D=0A                =
+                                                                 =0D=0A    =
+                                         =0D=0A                  <DIV style=
+=3D'background: url("https://cdaas.americanexpress.com/akamai/axp/comms/ico=
+ns/hl-pattern-50pc.png") top rgb(0, 111, 207); margin: 0px auto; max-width:=
+ 620px;'>=0D=0A                  <DIV style=3D"line-height: 0; font-size: 0=
+px;">=0D=0A                  <TABLE align=3D"center" role=3D"presentation" =
+background=3D"https://cdaas.americanexpress.com/akamai/axp/comms/icons/hl-p=
+attern-50pc.png" =0D=0A                  style=3D'background: url("https://=
+cdaas.americanexpress.com/akamai/axp/comms/icons/hl-pattern-50pc.png") top =
+rgb(0, 111, 207); width: 100%;' =0D=0A                  border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0">=0D=0A                    <TBODY>=0D=0A      =
+              <TR>=0D=0A                      <TD style=3D"padding: 40px 0p=
+x; text-align: center; font-size: 0px; direction: ltr;"><!--[if mso | IE]><=
+table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+"><tr><td class=3D"" style=3D"" ><table align=3D"center" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"wi=
+dth:620px;" width=3D"620" ><tr><td style=3D"line-height:0px;font-size:0px;m=
+so-line-height-rule:exactly;"><![endif]--> =0D=0A                          =
+                                                       =0D=0A              =
+                                                                   =0D=0A  =
+                                                    =0D=0A                 =
+       <DIV style=3D"margin: 0px auto; max-width: 620px;">=0D=0A           =
+             <TABLE align=3D"center" role=3D"presentation" style=3D"width: =
+100%;" =0D=0A                        border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">=0D=0A                          <TBODY>=0D=0A                   =
+       <TR>=0D=0A                            <TD style=3D"padding: 0px; tex=
+t-align: center; font-size: 0px; direction: ltr;"><!--[if mso | IE]><table =
+role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr>=
+<td class=3D"" width=3D"620px" ><table align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"wid=
+th:620px;" width=3D"620" ><tr><td style=3D"line-height:0px;font-size:0px;ms=
+o-line-height-rule:exactly;"><![endif]--> =0D=0A                           =
+                                                      =0D=0A               =
+                                                                  =0D=0A   =
+                                                                           =
+   =0D=0A                                                         =0D=0A   =
+                           <DIV style=3D"margin: 0px auto; max-width: 620px=
+;">=0D=0A                              <TABLE align=3D"center" role=3D"pres=
+entation" style=3D"width: 100%;" =0D=0A                              border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0D=0A                          =
+      <TBODY>=0D=0A                                <TR>=0D=0A              =
+                  <TD style=3D"padding: 0px; text-align: center; font-size:=
+ 0px; direction: ltr;"><!--[if mso | IE]><table role=3D"presentation" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"ver=
+tical-align:middle;width:37.2px;" ><![endif]--> =0D=0A                     =
+                                                            =0D=0A         =
+                                                                        =0D=
+=0A                                                                        =
+         =0D=0A                                                            =
+                 =0D=0A                                <DIV class=3D"mj-col=
+umn-per-6 mj-outlook-group-fix" =0D=0A                                style=
+=3D"width: 100%; text-align: left; font-size: 0px; vertical-align: middle; =
+display: inline-block; direction: ltr;">=0D=0A                             =
+   <TABLE width=3D"100%" role=3D"presentation" style=3D"vertical-align: mid=
+dle;" =0D=0A                                border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0">=0D=0A                                <TBODY></TBODY></TA=
+BLE></DIV><!--[if mso | IE]></td><td class=3D"text-align-center-outlook" st=
+yle=3D"vertical-align:middle;width:62px;" ><![endif]--> =0D=0A             =
+                                                                    =0D=0A =
+                                                                           =
+     =0D=0A                                                                =
+                 =0D=0A                                                    =
+                         =0D=0A                                <DIV class=
+=3D"mj-column-per-10 mj-outlook-group-fix text-align-center" =0D=0A        =
+                        style=3D"width: 100%; text-align: left; font-size: =
+0px; vertical-align: middle; display: inline-block; direction: ltr;">=0D=0A=
+                                <TABLE width=3D"100%" role=3D"presentation"=
+ border=3D"0" =0D=0A                                cellspacing=3D"0" cellp=
+adding=3D"0">=0D=0A                                <TBODY>=0D=0A           =
+                     <TR>=0D=0A                                <TD style=3D=
+"padding: 0px; vertical-align: middle;">=0D=0A                             =
+   <TABLE width=3D"100%" role=3D"presentation" border=3D"0" =0D=0A         =
+                       cellspacing=3D"0" cellpadding=3D"0">=0D=0A          =
+                      <TBODY>=0D=0A                                <TR>=0D=
+=0A                                <TD align=3D"center" class=3D"pad-3-b" s=
+tyle=3D"padding: 0px; font-size: 0px;">=0D=0A                              =
+  <TABLE role=3D"presentation" style=3D"border-collapse: collapse; border-s=
+pacing: 0px;" =0D=0A                                border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0">=0D=0A                                <TBODY>=0D=
+=0A                                <TR>=0D=0A                              =
+  <TD style=3D"width: 60px;"><IMG width=3D"60" height=3D"60" =0D=0A        =
+                        style=3D"border: 0px currentColor; border-image: no=
+ne; width: 100%; height: 60px; font-size: 13px; text-decoration: none; disp=
+lay: block;" =0D=0A                                alt=3D"Alert Icon" src=
+=3D"https://cdaas.americanexpress.com/akamai/axp/comms/icons/eds-library/bl=
+ue-box/white-headline-icons-60px/alert-white.png"></TD></TR></TBODY></TABLE=
+></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV><!--[if mso | IE=
+]></td><td class=3D"" style=3D"vertical-align:middle;width:483.6px;" ><![en=
+dif]--> =0D=0A                                                             =
+                    =0D=0A                                                 =
+                                =0D=0A                                     =
+                                            =0D=0A                         =
+                                                    =0D=0A                 =
+               <DIV class=3D"mj-column-per-78 mj-outlook-group-fix" =0D=0A =
+                               style=3D"width: 100%; text-align: left; font=
+-size: 0px; vertical-align: middle; display: inline-block; direction: ltr;"=
+>=0D=0A                                <TABLE width=3D"100%" role=3D"presen=
+tation" border=3D"0" =0D=0A                                cellspacing=3D"0=
+" cellpadding=3D"0">=0D=0A                                <TBODY>=0D=0A    =
+                            <TR>=0D=0A                                <TD s=
+tyle=3D"padding: 0px; vertical-align: middle;">=0D=0A                      =
+          <TABLE width=3D"100%" role=3D"presentation" border=3D"0" =0D=0A  =
+                              cellspacing=3D"0" cellpadding=3D"0">=0D=0A   =
+                             <TBODY>=0D=0A                                <=
+TR>=0D=0A                                <TD align=3D"left" class=3D"pad-0 =
+pad-4-lr body-4 text-align-center" =0D=0A                                st=
+yle=3D"padding: 0px 0px 0px 20px; font-size: 0px;">=0D=0A                  =
+              <DIV style=3D'text-align: left; color: rgb(255, 255, 255); li=
+ne-height: 34px; font-family: "Helvetica Neue", Helvetica, sans-serif; font=
+-size: 26px; font-weight: 400;'>=0D=0A                                <P ro=
+le=3D"heading" aria-level=3D"1" style=3D"margin: 0px;">=A1=BEAMERICAN =0D=
+=0A                                                                        =
+         =0D=0A                                                            =
+                     =0D=0A                                                =
+                                 =0D=0A                                    =
+                                         =0D=0A                            =
+    EXPRESS=A1=BF=A4=B4=D5=88=C7=F3=BD=F0=EE~=B4_=B6=A8=A4=CE=A4=B4=B0=B8=
+=C4=DA</P></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV><=
+!--[if mso | IE]></td><td class=3D"" style=3D"vertical-align:middle;width:3=
+7.2px;" ><![endif]--> =0D=0A                                               =
+                                  =0D=0A                                   =
+                                              =0D=0A                       =
+                                                          =0D=0A           =
+                                                                  =0D=0A   =
+                             <DIV class=3D"mj-column-per-6 mj-outlook-group=
+-fix" =0D=0A                                style=3D"width: 100%; text-alig=
+n: left; font-size: 0px; vertical-align: middle; display: inline-block; dir=
+ection: ltr;">=0D=0A                                <TABLE width=3D"100%" r=
+ole=3D"presentation" style=3D"vertical-align: middle;" =0D=0A              =
+                  border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0D=0A  =
+                              <TBODY></TBODY></TABLE></DIV><!--[if mso | IE=
+]></td></tr></table><![endif]--></TD></TR></TBODY></TABLE></DIV><!--[if mso=
+ | IE]></td></tr></table></td></tr></table><![endif]--></TD></TR></TBODY></=
+TABLE></DIV><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]=
+--></TD></TR></TBODY></TABLE></DIV></DIV><!--[if mso | IE]></v:textbox></v:=
+rect></td></tr></table></td></tr></table><![endif]--></TD></TR></TBODY></TA=
+BLE></DIV><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--=
+></TD></TR></TBODY></TABLE></DIV><!--[if mso | IE]></td></tr></table></td><=
+/tr><tr><td class=3D"" width=3D"620px" ><table align=3D"center" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" styl=
+e=3D"width:620px;" width=3D"620" ><tr><td style=3D"line-height:0px;font-siz=
+e:0px;mso-line-height-rule:exactly;"><![endif]--> =0D=0A                   =
+                 =0D=0A      <DIV style=3D"margin: 0px auto; max-width: 620=
+px;">=0D=0A      <TABLE align=3D"center" role=3D"presentation" style=3D"wid=
+th: 100%;" border=3D"0" =0D=0A      cellspacing=3D"0" cellpadding=3D"0">=0D=
+=0A        <TBODY>=0D=0A        <TR>=0D=0A          <TD style=3D"padding: 4=
+0px 40px 0px; text-align: center; font-size: 0px; direction: ltr;"><!--[if =
+mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0"><tr><td class=3D"text-align-left-outlook" style=3D"vertical-al=
+ign:top;width:540px;" ><![endif]--> =0D=0A                                 =
+                                       =0D=0A            <DIV class=3D"mj-c=
+olumn-per-100 mj-outlook-group-fix text-align-left" =0D=0A            style=
+=3D"width: 100%; text-align: left; font-size: 0px; vertical-align: top; dis=
+play: inline-block; direction: ltr;">=0D=0A            <TABLE width=3D"100%=
+" role=3D"presentation" border=3D"0" cellspacing=3D"0" =0D=0A            ce=
+llpadding=3D"0">=0D=0A              <TBODY>=0D=0A              <TR>=0D=0A  =
+              <TD style=3D"padding: 0px; vertical-align: top;">=0D=0A      =
+            <TABLE width=3D"100%" role=3D"presentation" border=3D"0" =0D=0A=
+                  cellspacing=3D"0" cellpadding=3D"0">=0D=0A               =
+     <TBODY>=0D=0A                    <TR>=0D=0A                      <TD a=
+lign=3D"left" style=3D"padding: 0px; font-size: 0px;">=0D=0A               =
+         <DIV style=3D'text-align: left; color: rgb(51, 51, 51); line-heigh=
+t: 22px; font-family: "Helvetica Neue", Roboto, Helvetica, sans-serif; font=
+-size: 15px; font-weight: 400;'>=0D=0A                        <P =0D=0A    =
+                    style=3D"margin: 0px;">=C6=BD=CB=D8=A4=CF=A5=A2=A5=E1=
+=A5=EA=A5=AB=A5=F3?=A5=A8=A5=AD=A5=B9=A5=D7=A5=EC=A5=B9=A4=CE=A5=AB=A9`=A5=
+=C9=A4=F2=A4=B4=C0=FB=D3=C3=A4=A4=A4=BF=A4=C0=A4=AD=A1=A2=D5\=A4=CB=A4=A2=
+=A4=EA=A4=AC=A4=C8=A4=A6=A4=B4=A4=B6=A4=A4=A4=DE=A4=B9=A1=A3</P>=0D=0A     =
+                   <P style=3D"margin: 0px;">&nbsp;</P>=0D=0A              =
+          <P style=3D"margin: 0px;">=A4=B4=D5=88=C7=F3=BD=F0=EE~=A4=AC=B4_=
+=B6=A8=A4=B7=A4=DE=A4=B7=A4=BF=A4=CE=A4=C7=A1=A2=A1=B8=A5=AA=A5=F3=A5=E9=A5=
+=A4=A5=F3?=A5=B5=A9`=A5=D3=A5=B9=A1=B9=A4=D8     =0D=0A                    =
+                                                             =0D=0A        =
+                              <U><A style=3D"color: rgb(0, 111, 207); font-=
+weight: bold;" =0D=0A                        href=3D"https://www.amexkisuke=
+-okina.com/">=A5=ED=A5=B0=A5=A4=A5=F3</A></U>=A4=CE=A4=A6=A4=A8=A1=A2=A4=B4=
+=B4_=D5J=A4=AF=A4=C0=A4=B5=A4=A4=A1=A3</P></DIV></TD></TR></TBODY></TABLE><=
+/TD></TR></TBODY></TABLE></DIV><!--[if mso | IE]></td></tr></table><![endif=
+]--></TD></TR></TBODY></TABLE></DIV><!--[if mso | IE]></td></tr></table></t=
+d></tr><tr><td class=3D"" width=3D"620px" ><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation"=
+ style=3D"width:620px;" width=3D"620" ><tr><td style=3D"line-height:0px;fon=
+t-size:0px;mso-line-height-rule:exactly;"><![endif]--> =0D=0A              =
+                      =0D=0A      <DIV style=3D"margin: 0px auto; max-width=
+: 620px;">=0D=0A      <TABLE align=3D"center" role=3D"presentation" style=
+=3D"width: 100%;" border=3D"0" =0D=0A      cellspacing=3D"0" cellpadding=3D=
+"0">=0D=0A        <TBODY>=0D=0A        <TR>=0D=0A          <TD style=3D"pad=
+ding: 30px 40px; text-align: center; font-size: 0px; direction: ltr;"><!--[=
+if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:540px;=
+" ><![endif]--> =0D=0A                                                     =
+                   =0D=0A            <DIV class=3D"mj-column-per-100 mj-out=
+look-group-fix" style=3D"width: 100%; text-align: left; font-size: 0px; ver=
+tical-align: top; display: inline-block; direction: ltr;">=0D=0A           =
+ <TABLE width=3D"100%" role=3D"presentation" border=3D"0" cellspacing=3D"0"=
+ =0D=0A            cellpadding=3D"0">=0D=0A              <TBODY>=0D=0A     =
+         <TR>=0D=0A                <TD style=3D"padding: 0px; vertical-alig=
+n: top;">=0D=0A                  <TABLE width=3D"100%" role=3D"presentation=
+" border=3D"0" =0D=0A                  cellspacing=3D"0" cellpadding=3D"0">=
+=0D=0A                    <TBODY>=0D=0A                    <TR>=0D=0A      =
+                <TD align=3D"left" class=3D"pad-0 pad-0-d btn-align-center"=
+ =0D=0A                      style=3D"padding: 13px 0px 0px; font-size: 0px=
+;">=0D=0A                        <TABLE role=3D"presentation" style=3D"widt=
+h: 230px; line-height: 100%; border-collapse: separate;" =0D=0A            =
+            border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0D=0A        =
+                  <TBODY>=0D=0A                          <TR>=0D=0A        =
+                    <TD align=3D"center" role=3D"presentation" valign=3D"mi=
+ddle" =0D=0A                            style=3D"background: rgb(0, 23, 90)=
+; border-radius: 5px; border: 1px solid rgb(0, 23, 90); border-image: none;=
+ cursor: auto; mso-padding-alt: 8px 25px;" =0D=0A                          =
+  bgcolor=3D"#00175a"><A style=3D"background: rgb(0, 23, 90); margin: 0px; =
+padding: 8px 25px; border-radius: 5px; width: 178px; color: rgb(255, 255, 2=
+55); text-transform: none; line-height: 22px; font-family: Helvetica, Arial=
+, Roboto, sans-serif; font-size: 15px; font-weight: 400; text-decoration: n=
+one; display: inline-block; mso-padding-alt: 0px;" =0D=0A                  =
+            href=3D"https://www.amexkisuke-okina.com/" target=3D"_blank">=
+=A1=B8=A5=AA=A5=F3=A5=E9=A5=A4=A5=F3?=A5=B5=A9`=A5=D3=A5=B9=A1=B9=A4=D8=A5=
+=ED=A5=B0=A5=A4=A5=F3</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABL=
+E></TD></TR></TBODY></TABLE></DIV><!--[if mso | IE]></td></tr></table><![en=
+dif]--></TD></TR></TBODY></TABLE></DIV><!--[if mso | IE]></td></tr></table>=
+</td></tr><tr><td class=3D"" width=3D"620px" ><table align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation=
+" style=3D"width:620px;" width=3D"620" ><tr><td style=3D"line-height:0px;fo=
+nt-size:0px;mso-line-height-rule:exactly;"><![endif]--> =0D=0A             =
+                       =0D=0A      <DIV style=3D"margin: 0px auto; max-widt=
+h: 620px;">=0D=0A      <TABLE align=3D"center" role=3D"presentation" style=
+=3D"width: 100%;" border=3D"0" =0D=0A      cellspacing=3D"0" cellpadding=3D=
+"0">=0D=0A        <TBODY>=0D=0A        <TR>=0D=0A          <TD style=3D"pad=
+ding: 10px 40px 40px; text-align: center; font-size: 0px; direction: ltr;">=
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0"><tr><td class=3D"pad-0-outlook" style=3D"vertical-alig=
+n:top;width:540px;" ><![endif]--> =0D=0A                                   =
+                                     =0D=0A            <DIV class=3D"mj-col=
+umn-per-100 mj-outlook-group-fix pad-0" style=3D"width: 100%; text-align: l=
+eft; font-size: 0px; vertical-align: top; display: inline-block; direction:=
+ ltr;">=0D=0A            <TABLE width=3D"100%" role=3D"presentation" border=
+=3D"0" cellspacing=3D"0" =0D=0A            cellpadding=3D"0">=0D=0A        =
+      <TBODY>=0D=0A              <TR>=0D=0A                <TD style=3D"pad=
+ding: 0px; vertical-align: top;">=0D=0A                  <TABLE width=3D"10=
+0%" role=3D"presentation" border=3D"0" =0D=0A                  cellspacing=
+=3D"0" cellpadding=3D"0">=0D=0A                    <TBODY>=0D=0A           =
+         <TR>=0D=0A                      <TD align=3D"left" style=3D"paddin=
+g: 0px; font-size: 0px;">=0D=0A                        <DIV style=3D'text-a=
+lign: left; color: rgb(51, 51, 51); line-height: 22px; font-family: "Helvet=
+ica Neue", Roboto, Helvetica, sans-serif; font-size: 15px; font-weight: 400=
+;'>=0D=0A                        <P =0D=0A                        style=3D"=
+margin: 0px;"><STRONG>=A1=B8=BF=DA=D7=F9=D5=F1=CC=E6=A4=CE=A4=AA=D6=AA=A4=
+=E9=A4=BB=A1=B9=A4=E2=BA=CF=A4=EF=A4=BB=A4=C6=A4=B4=C0=FB=D3=C3=A4=AF=A4=C0=
+=A4=B5=A4=A4=A1=A3</STRONG></P>=0D=0A                        <P style=3D"ma=
+rgin: 0px;">&nbsp;</P>=0D=0A                        <P style=3D"margin: 0px=
+;">=BF=DA=D7=F9=A4=CE=D5=F1=CC=E6=BD=F0=EE~=A4=C8=D5=F1=CC=E6=C8=D5=A4=F2=
+=A1=A2=D5=F1=CC=E6=C8=D5=A4=CE2 -             =0D=0A                       =
+                                                          =0D=0A           =
+                                           =0D=0A                        5=
+=C8=D5=C7=B0=A4=CBE=A5=E1=A9`=A5=EB=A4=C7=A4=AA=D6=AA=A4=E9=A4=BB=A4=B9=A4=
+=EB=B1=E3=C0=FB=A4=CA=A5=B5=A9`=A5=D3=A5=B9=A4=C7=A4=B9=A1=A3=A4=B3=A4=CE=
+=99C=BB=E1=A4=CB=A4=BC=A4=D2=A1=A2=A4=B4=B5=C7=E5h=A4=AF=A4=C0=A4=B5=A4=A4=
+=A1=A3<A style=3D"color: rgb(0, 111, 207);" =0D=0A                        h=
+ref=3D"https://www.amexkisuke-okina.com/">=D4=94=BC=9A=A4=CF=A4=B3=A4=C1=A4=
+=E9</A></P></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>=
+<!--[if mso | IE]></td></tr></table><![endif]--></TD></TR></TBODY></TABLE><=
+/DIV><!--[if mso | IE]></td></tr></table></td></tr><tr><td class=3D"" width=
+=3D"620px" ><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"" role=3D"presentation" style=3D"width:620px;" width=3D"=
+620" bgcolor=3D"#00175a" ><tr><td style=3D"line-height:0px;font-size:0px;ms=
+o-line-height-rule:exactly;"><![endif]--> =0D=0A                           =
+         =0D=0A      <DIV style=3D"background: rgb(0, 23, 90); margin: 0px =
+auto; max-width: 620px;">=0D=0A      <TABLE align=3D"center" role=3D"presen=
+tation" style=3D"background: rgb(0, 23, 90); width: 100%;" =0D=0A      bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0D=0A        <TBODY>=0D=0A   =
+     <TR>=0D=0A          <TD style=3D"padding: 20px 0px; text-align: center=
+; font-size: 0px; direction: ltr;"><!--[if mso | IE]><table role=3D"present=
+ation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" =
+style=3D"vertical-align:top;width:620px;" ><![endif]--> =0D=0A             =
+                                                           =0D=0A          =
+  <DIV class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"width: 100=
+%; text-align: left; font-size: 0px; vertical-align: top; display: inline-b=
+lock; direction: ltr;">=0D=0A            <TABLE width=3D"100%" role=3D"pres=
+entation" border=3D"0" cellspacing=3D"0" =0D=0A            cellpadding=3D"0=
+">=0D=0A              <TBODY>=0D=0A              <TR>=0D=0A                =
+<TD style=3D"padding: 0px; vertical-align: top;">=0D=0A                  <T=
+ABLE width=3D"100%" role=3D"presentation" border=3D"0" =0D=0A              =
+    cellspacing=3D"0" cellpadding=3D"0">=0D=0A                    <TBODY>=
+=0D=0A                    <TR>=0D=0A                      <TD align=3D"cent=
+er" class=3D"image-alt-text-white dls-tagline-blue-sm" =0D=0A              =
+        style=3D"padding: 0px; font-size: 0px;">=0D=0A                     =
+   <TABLE role=3D"presentation" style=3D"border-collapse: collapse; border-=
+spacing: 0px;" =0D=0A                        border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">=0D=0A                          <TBODY>=0D=0A           =
+               <TR>=0D=0A                            <TD style=3D"width: 24=
+0px;"><IMG width=3D"240" height=3D"auto" =0D=0A                            =
+  style=3D"border: 0px currentColor; border-image: none; width: 100%; heigh=
+t: auto; color: rgb(255, 255, 255); font-size: 13px; text-decoration: none;=
+ display: block;" =0D=0A                              alt=3D"Don't live lif=
+e without it" src=3D"https://cdaas.americanexpress.com/akamai/axp/comms/tag=
+lines/consumer-tagline-japanese.png"></TD></TR></TBODY></TABLE></TD></TR></=
+TBODY></TABLE></TD></TR></TBODY></TABLE></DIV><!--[if mso | IE]></td></tr><=
+/table><![endif]--></TD></TR></TBODY></TABLE></DIV><!--[if mso | IE]></td><=
+/tr></table></td></tr><tr><td class=3D"ada-list-outlook -outlook" width=3D"=
+620px" ><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"ada-list-outlook -outlook" role=3D"presentation" style=3D"w=
+idth:620px;" width=3D"620" ><tr><td style=3D"line-height:0px;font-size:0px;=
+mso-line-height-rule:exactly;"><![endif]--> =0D=0A                         =
+           =0D=0A      <DIV class=3D"ada-list" style=3D"margin: 0px auto; m=
+ax-width: 620px;">=0D=0A      <TABLE align=3D"center" role=3D"presentation"=
+ style=3D"width: 100%;" border=3D"0" =0D=0A      cellspacing=3D"0" cellpadd=
+ing=3D"0">=0D=0A        <TBODY>=0D=0A        <TR>=0D=0A          <TD role=
+=3D"list" style=3D"padding: 0px; text-align: center; font-size: 0px; direct=
+ion: ltr;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0"><tr><td class=3D"text-align-center-outlook =
+nav-bar-border-b-outlook" style=3D"vertical-align:middle;width:310px;" ><![=
+endif]--> =0D=0A                                                           =
+             =0D=0A            <DIV class=3D"mj-column-per-50 mj-outlook-gr=
+oup-fix text-align-center nav-bar-border-b" =0D=0A            role=3D"listi=
+tem" style=3D"width: 100%; text-align: left; font-size: 0px; vertical-align=
+: middle; display: inline-block; direction: ltr;">=0D=0A            <TABLE =
+width=3D"100%" role=3D"presentation" border=3D"0" cellspacing=3D"0" =0D=0A =
+           cellpadding=3D"0">=0D=0A              <TBODY>=0D=0A             =
+ <TR>=0D=0A                <TD style=3D"padding: 0px; vertical-align: middl=
+e;">=0D=0A                  <TABLE width=3D"100%" role=3D"presentation" bor=
+der=3D"0" =0D=0A                  cellspacing=3D"0" cellpadding=3D"0">=0D=
+=0A                    <TBODY>=0D=0A                    <TR>=0D=0A         =
+             <TD align=3D"center" class=3D"pad-4-lr pad-2-tb text-align-cen=
+ter" =0D=0A                      style=3D"padding: 20px 20px 20px 40px; fon=
+t-size: 0px;">=0D=0A                        <DIV style=3D"text-align: cente=
+r; color: rgb(0, 0, 0); line-height: 22px; font-family: Helvetica, Arial, R=
+oboto, sans-serif; font-size: 15px; font-weight: 400;"><A =0D=0A           =
+             style=3D"padding: 20px 0px; color: rgb(0, 111, 207); text-deco=
+ration: none; align: center;" =0D=0A                        href=3D"https:/=
+/go.amex/contact-ja?comm_track_id=3Dr_PAPLS202530625452553J7R2P_1_t&amp;dot=
+AmexDomain=3Dgo">=A4=AA=86=96=A4=A4=BA=CF=A4=EF=A4=BB</A></DIV></TD></TR></=
+TBODY></TABLE></TD></TR></TBODY></TABLE></DIV><!--[if mso | IE]></td></tr><=
+/table><![endif]--></TD></TR></TBODY></TABLE></DIV><!--[if mso | IE]></td><=
+/tr></table></td></tr><tr><td class=3D"" width=3D"620px" ><table align=3D"c=
+enter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"=
+presentation" style=3D"width:620px;" width=3D"620" bgcolor=3D"#d9d9d6" ><tr=
+><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">=
+<![endif]--> =0D=0A                                    =0D=0A      <DIV sty=
+le=3D"background: rgb(217, 217, 214); margin: 0px auto; max-width: 620px;">=
+=0D=0A      <TABLE align=3D"center" role=3D"presentation" style=3D"backgrou=
+nd: rgb(217, 217, 214); width: 100%;" =0D=0A      border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">=0D=0A        <TBODY>=0D=0A        <TR>=0D=0A     =
+     <TD style=3D"padding: 10px 0px; text-align: center; font-size: 0px; di=
+rection: ltr;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-al=
+ign:top;width:620px;" ><![endif]--> =0D=0A                                 =
+                                       =0D=0A            <DIV class=3D"mj-c=
+olumn-per-100 mj-outlook-group-fix" style=3D"width: 100%; text-align: left;=
+ font-size: 0px; vertical-align: top; display: inline-block; direction: ltr=
+;">=0D=0A            <TABLE width=3D"100%" role=3D"presentation" border=3D"=
+0" cellspacing=3D"0" =0D=0A            cellpadding=3D"0">=0D=0A            =
+  <TBODY>=0D=0A              <TR>=0D=0A                <TD style=3D"padding=
+: 0px; vertical-align: top;">=0D=0A                  <TABLE width=3D"100%" =
+role=3D"presentation" border=3D"0" =0D=0A                  cellspacing=3D"0=
+" cellpadding=3D"0">=0D=0A                    <TBODY>=0D=0A                =
+    <TR>=0D=0A                      <TD align=3D"left" style=3D"padding: 0p=
+x 0px 10px; font-size: 0px;">=0D=0A                        <DIV style=3D'te=
+xt-align: left; color: rgb(83, 86, 90); line-height: 20px; font-family: "He=
+lvetica Neue", Roboto, Helvetica, sans-serif; font-size: 13px; font-weight:=
+ 400;'>=0D=0A                        <P =0D=0A                        style=
+=3D"margin: 0px 0px 0px 20px;">=A4=AA=BF=CD=A4=B5=A4=DE=C7=E9=88=F3=B1=A3=
+=D7o=A4=CE=A4=BF=A4=E1=A1=A2=A4=B4=C0=FB=D3=C3=C3=F7=BC=9A=A4=CE=D4=94=BC=
+=9A=A4=CA=A4=C9=A4=CFE=A5=E1=A9`=A5=EB=A4=C7=A4=B4=B0=B8=C4=DA=A4=A4=A4=BF=
+=A4=B7=A4=C6=A4=AA=A4=EA=A4=DE=A4=BB=A4=F3=A1=A3</P>=0D=0A                 =
+       <P =0D=0A                        style=3D"margin: 0px 0px 0px 20px;"=
+>=A5=AB=A9`=A5=C9=A4=CE=A4=B4=C0=FB=D3=C3=A4=AC=A4=CA=A4=A4=D4=C2=A4=CF=A1=
+=B8=A5=AA=A5=F3=A5=E9=A5=A4=A5=F3=C3=F7=BC=9A=95=F8=A1=B9=A4=CF=D7=F7=B3=C9=
+=A4=B5=A4=EC=A4=DE=A4=BB=A4=F3=A1=A3=A4=DE=A4=BF=A1=A2E=A5=E1=A9`=A5=EB=A4=
+=CB=A4=E8=A4=EB=A4=B4=B0=B8=C4=DA=A4=E2=A4=B4=A4=B6=A4=A4=A4=DE=A4=BB=A4=F3=
+=A1=A3</P>=0D=0A                        <P =0D=0A                        st=
+yle=3D"margin: 0px 0px 0px 20px;">=A1=B8=A5=AA=A5=F3=A5=E9=A5=A4=A5=F3=C3=
+=F7=BC=9A=95=F8=A5=B5=A9`=A5=D3=A5=B9=A1=B9=A4=CB=A4=B4=B5=C7=E5h=A4=B5=A4=
+=EC=A4=C6=A4=A4=A4=C6=A4=E2=A1=A2=B7=D6=B8=EE=92B=A4=A4=A4=AA=A4=E8=A4=D3=
+=A5=EA=A5=DC=A5=EB=A5=D3=A5=F3=A5=B0=92B=A4=A4=A4=CE=A4=B4=C0=FB=D3=C3=A4=
+=AC=A4=A2=A4=EB=88=F6=BA=CF=A1=A2=A5=DC=A9`=A5=CA=A5=B9=92B=A4=A4=A4=CE=D5=
+=88=C7=F3=D4=C2?=D6=A7=92B=A4=A4=CD=EA=C1=CB=D4=C2=A1=A2=A5=AD=A5=E3=A5=C3=
+=A5=B7=A5=F3=A5=B0=A1=A2=A5=AB=A9`=A5=C9?=A5=ED=A9`=A5=F3=A4=B4=D5=88=C7=F3=
+=B2=D0=B8=DF=A4=AC=A4=A2=A4=EB=88=F6=BA=CF=A3=A8=B7=A8=C1=EE=A4=CB=B6=A8=A4=
+=E1=A4=E9=A4=EC=A4=C6=A4=A4=A4=EB=95=F8=C3=E6=BD=BB=B8=B6=C1x=84=D5=A4=CB=
+=BB=F9=A4=C5=A4=AD=A4=DE=A4=B9=A3=A9=A1=A2=A4=DE=A4=BF=A4=BD=A4=CE=CB=FB=B5=
+=B1=C9=E7=A4=AC=B1=D8=D2=AA=A4=C8=D5J=A4=E1=A4=BF=88=F6=BA=CF=A4=CB=A4=CF=
+=A1=A2=A1=B8=A5=AB=A9`=A5=C9=A4=B4=C0=FB=D3=C3=B4=FA=BD=F0=C3=F7=BC=9A=95=
+=F8=A1=B9=A4=F2=E0]=CB=CD=A4=B5=A4=BB=A4=C6=A4=A4=A4=BF=A4=C0=A4=AD=A4=DE=
+=A4=B9=A1=A3</P>=0D=0A                        <P =0D=0A                    =
+    style=3D"margin: 0px 0px 0px 20px;">=A4=B4=C8=EB=C1=A6=A4=A4=A4=BF=A4=
+=C0=A4=A4=A4=BFE=A5=E1=A9`=A5=EB=A5=A2=A5=C9=A5=EC=A5=B9=A4=CB=D5`=A4=EA=A4=
+=AC=A4=A2=A4=C3=A4=BF=A4=EA=A1=A2=CD=A8=D0=C5=D5=CF=BA=A6=B5=C8=A4=CB=A4=E8=
+=A4=EAE=A5=E1=A9`=A5=EB=A4=F2=A4=AA=CB=CD=A4=EA=A4=C7=A4=AD=A4=CA=A4=A4=88=
+=F6=BA=CF=A4=CF=A1=A2=A4=B4=B5=C7=E5h=A4=CE=A4=B4=C0=FB=D3=C3=B4=FA=BD=F0=
+=C3=F7=BC=9A=95=F8=CB=CD=B8=B6=CF=C8=A4=D8=A1=A2=A4=BD=A4=CE=D6=BC=A4=F2=D3=
+=9B=DDd=A4=B7=A4=BF=A4=AA=CA=D6=BC=88=A4=F2=E0]=CB=CD=A4=B5=A4=BB=A4=C6=A4=
+=A4=A4=BF=A4=C0=A4=AF=88=F6=BA=CF=A4=AC=A4=B4=A4=B6=A4=A4=A4=DE=A4=B9=A1=A3=
+</P>=0D=0A                        <P =0D=0A                        style=3D=
+"margin: 0px 0px 0px 20px;">=C5=E4=D0=C5=A5=A2=A5=C9=A5=EC=A5=B9=A4=CE=89=
+=E4=B8=FC=A4=CF=A1=A2=A1=B8=A5=AA=A5=F3=A5=E9=A5=A4=A5=F3?=A5=B5=A9`=A5=D3=
+=A5=B9=A1=B9=A4=CE"<A =0D=0A                        style=3D'color: rgb(83,=
+ 86, 90); line-height: 20px; font-family: "Helvetica Neue", Roboto, Helveti=
+ca, sans-serif; font-size: 13px; font-weight: 400; text-decoration: underli=
+ne;' =0D=0A                        href=3D"https://go.amex/jp-count?comm_tr=
+ack_id=3Dr_PAPLS202530625452553J7R2P_1_t&amp;dotAmexDomain=3Dgo">=A4=B4=B5=
+=C7=E5h=C7=E9=88=F3=A4=CE=89=E4=B8=FC</A>"=A4=E8=A4=EA=A4=AA=CA=D6=BEA=A4=
+=AD=A4=AF=A4=C0=A4=B5=A4=A4=A1=A3</P>=0D=0A                        <P =0D=
+=0A                        style=3D"margin: 0px 0px 0px 20px;">=A4=B3=A4=CE=
+=A5=E1=A9`=A5=EB=A4=CF=CB=CD=D0=C5=8C=9F=D3=C3=A5=E1=A9`=A5=EB=A5=A2=A5=C9=
+=A5=EC=A5=B9=A4=AB=A4=E9=D7=D4=84=D3=CB=CD=D0=C5=A4=B5=A4=EC=A4=C6=A4=A4=A4=
+=DE=A4=B9=A1=A3=A4=B4=B7=B5=D0=C5=A4=A4=A4=BF=A4=C0=A4=A4=A4=C6=A4=E2=A4=AA=
+=8F=EA=A4=A8=A4=A4=A4=BF=A4=B7=A4=AB=A4=CD=A4=DE=A4=B9=A4=CE=A4=C7=A1=A2=A4=
+=B4=C1=CB=B3=D0=A4=AF=A4=C0=A4=B5=A4=A4=A1=A3</P>=0D=0A                    =
+    <P style=3D"margin: 0px 0px 0px 10px;">&nbsp;</P>=0D=0A                =
+        <P style=3D"margin: 0px 0px 0px 20px;">=A1=BE=C5=E4=D0=C5=D4=AA=A1=
+=BF</P>=0D=0A                        <P style=3D"margin: 0px 0px 0px 20px;"=
+>&nbsp;</P>=0D=0A                        <P =0D=0A                        s=
+tyle=3D"margin: 0px 0px 0px 20px;">=A5=A2=A5=E1=A5=EA=A5=AB=A5=F3?=A5=A8=A5=
+=AD=A5=B9=A5=D7=A5=EC=A5=B9?=A5=A4=A5=F3=A5=BF=A9`=A5=CA=A5=B7=A5=E7=A5=CA=
+=A5=EB,Inc=A3=AE</P></DIV></TD></TR>=0D=0A                    <TR>=0D=0A   =
+                   <TD align=3D"left" style=3D"padding: 0px; font-size: 0px=
+;">=0D=0A                        <DIV style=3D'text-align: left; color: rgb=
+(83, 86, 90); line-height: 20px; font-family: "Helvetica Neue", Roboto, Hel=
+vetica, sans-serif; font-size: 13px; font-weight: 400;'>=0D=0A             =
+           <P style=3D"margin: 0px 0px 0px 20px;">=A8=93105-6920           =
+=0D=0A                                                                     =
+            =0D=0A                                =96|=BE=A9=B6=BC=B8=DB=C7=
+=F8=BB=A2=A5=CE=E9T4=B6=A1=C4=BF1=B7=AC1=BA=C5                          <U>=
+<A =0D=0A                        style=3D'color: rgb(83, 86, 90); line-heig=
+ht: 20px; font-family: "Helvetica Neue", Roboto, Helvetica, sans-serif; fon=
+t-size: 13px; font-weight: 400; text-decoration: underline;' =0D=0A        =
+                href=3D"https://go.amex/ja-jp-amex-com?comm_track_id=3Dr_PA=
+PLS202530625452553J7R2P_1_t&amp;dotAmexDomain=3Dgo">americanexpress.co.jp</=
+A></U></P>=0D=0A                        <P style=3D"margin: 0px 0px 0px 20p=
+x;">&nbsp;</P>=0D=0A                        <P style=3D"margin: 0px 0px 0px=
+ 20px;">Copyright (c) 2025  =0D=0A                                         =
+                                        =0D=0A                             =
+         American                         Express =0D=0A                   =
+     International,                         Inc. All          =0D=0A       =
+                                Rights                         =0D=0A      =
+                  Reserved.</P>=0D=0A                        <P style=3D"ma=
+rgin: 0px 0px 0px 20px;">&nbsp;</P>=0D=0A                        <P =0D=0A =
+                     style=3D"margin: 0px 0px 0px 20px;">SAM0FYI688</P></DI=
+V></TD></TR>=0D=0A                    <TR>=0D=0A                      <TD a=
+lign=3D"left" style=3D"padding: 10px 0px 0px; font-size: 0px;">=0D=0A      =
+                  <DIV style=3D'text-align: left; color: rgb(83, 86, 90); l=
+ine-height: 20px; font-family: "Helvetica Neue", Roboto, Helvetica, sans-se=
+rif; font-size: 13px; font-weight: 400;'></DIV></TD></TR>=0D=0A            =
+        <TR>=0D=0A                      <TD align=3D"left" style=3D"padding=
+: 0px; font-size: 0px;"><!--[if mso | IE]><table role=3D"presentation" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td height=3D"1px" style=
+=3D"vertical-align:top;height:1px;"><![endif]--> =0D=0A                    =
+                                                             =0D=0A        =
+                                                                         =
+=0D=0A                                                      =0D=0A         =
+               <DIV style=3D"height: 1px; text-align: left; color: rgb(0, 0=
+, 0); line-height: 1; font-family: Ubuntu, Helvetica, Arial, sans-serif; fo=
+nt-size: 13px;"><IMG =0D=0A                        width=3D"1" height=3D"1"=
+ role=3D"none" style=3D"width: 1px; height: 1px;" =0D=0A                   =
+     alt=3D"" src=3D"https://m.amex/opentrack?comm_track_id=3Dr_PAPLS202530=
+625452553J7R2P_1_t&amp;dotAmexDomain=3Dm"></DIV><!--[if mso | IE]></td></tr=
+></table><![endif]--></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+DIV><!--[if mso | IE]></td></tr></table><![endif]--></TD></TR></TBODY></TAB=
+LE></DIV><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]-->=
+</TD></TR></TBODY></TABLE></DIV><!--[if mso | IE]></td></tr></table><![endi=
+f]--></DIV></BODY></HTML>=0D=0A
+--66dee22a72e2c58e2c76e85e0007a6d1--
+

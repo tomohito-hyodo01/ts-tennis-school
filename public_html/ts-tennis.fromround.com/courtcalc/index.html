@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<title>コート代金計算</title>
+		<link rel="stylesheet" href="/css/courtcalc.css">
+		<link rel="icon" href="/images/favicon.ico">
+	</head>
+	<body>
+		<h1>コート代金計算</h1>
+		<div id="app">
+			コート代金 <input type="tel" id="court_price">
+			会員数 <input type="tel" id="member_num">
+			非会員数 <input type="tel" id="non_member_num">
+				<br>
+			会員料金 <b><span id="member_price"></span></b>
+			非会員料金 <b><span id="non_member_price"></span></b>
+			<br>
+			差額 <b><span id="surplus"></span></b><br>
+		</div>
+		<input type="button" id="recalculate" value="会員料金調整">
+		<input type="button" id="reset" value="初回代金に戻す">
+		<script src="/js/vue.global.prod.js"></script>
+		<script src="/js/courtcalc.js"></script>
+	</body>
+</html>

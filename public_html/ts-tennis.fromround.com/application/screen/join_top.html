@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>入会申込フォーム - T'sソフトテニススクール</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="T'sソフトテニススクールは東京都・埼玉県の施設でレッスンを行っているソフトテニススクールです。初心者は基本から、上級者は勝つ為のテクニックを教えます。">
+<meta name="keywords" content="T's,T'sソフトテニススクール,テニススクール,ソフトテニス,ソフトテニスレッスン,ソフトテニススクール 大人,ソフトテニススクール 東京,ソフトテニススクール 埼玉,ソフトテニススクール 中学生, ソフトテニススクール 高校生, ソフトテニス ブランク,ソフトテニススクール アルバイト,ソフトテニス アルバイト,ソフトテニススクール バイト,ソフトテニス バイト,ソフトテニス インストラクター,ソフトテニススクール インストラクター,ソフトテニススクール 時間">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="icon" href="/images/favicon.ico">
+<script src="/js/fixmenu_pagetop.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="header_2">
+	<nav id="menubar">
+		<ul>
+			<li><a href="/">ホーム</a></li>
+			<li><a href="/about/">スクールについて</a></li>
+			<li><a href="/course/">コース</a></li>
+			<li><a href="/instructor/">インストラクター</a></li>
+			<li><a href="/contact/">お問い合わせ</a></li>
+			<li><a href="/access/">アクセス</a></li>
+		</ul>
+	</nav>
+</div>
+<div id="container">
+	<div id="contents">
+	<h2>入会申し込み</h2>
+		<form method="POST" action="/application/script/join_confirm.php">
+			<h3>お申込みコース選択</h3>
+			<font color="red"><!-- ERROR_MESSAGE --></font>
+			<table class="ta1">
+				<tr>
+					<th>お申込みコース　<span class="newicon">必須</span></th>
+					<td style="position:relative;">
+						<select id="form01" name="course">
+							<option value="">選択してください</option>
+							<option value="初級者コース" [-- INPUT_COURSE1 --]>初級者コース</option>
+							<option value="中学生・高校生 中級者コース" [-- INPUT_COURSE2 --]>中学生・高校生 中級者コース</option>
+							<option value="中学生・高校生 上級者コース" [-- INPUT_COURSE3 --]>中学生・高校生 上級者コース</option>
+							<option value="中学生・高校生 ゲームコース" [-- INPUT_COURSE4 --]>ゲームコース</option>
+							<option value="社会人 ブランク解消コース" [-- INPUT_COURSE5 --]>社会人 ブランク解消コース</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>参加場所　<span class="newicon">必須</span></th>
+					<td style="position:relative;">
+						<select id="form01" name="park">
+							<option value="">選択してください</option>
+							<option value="舎人公園" [-- INPUT_PARK1 --]>舎人公園</option>
+						</select><br>
+						※ 現在、毎週土曜日9:00～13:00 の間で舎人公園でのみ開催しております
+					</td>
+				</tr>
+				<tr>
+					<th>希望回数 / 月　<span class="newicon">必須</span></th>
+					<td style="position:relative;">月<input type="text" id="form01" name="times" maxlength="2" value="<!-- TIMES -->" placeholder="例) 20" oninput="value = value.replace(/[^0-9]+/i,'');" style="width:15%"> 回</td>
+				</tr>
+				<tr>
+					<th>目指すレベル　<span class="newicon2">任意</span></th>
+					<td style="position:relative;"><input type="text" id="form01" name="target" maxlength="100" value="<!-- TARGET -->" placeholder="例) インターハイ出場"></td>
+				</tr>
+			</table>
+			<h3>お客様情報入力</h3>
+			<table class="ta1">
+				<tr>
+					<th>お名前　<span class="newicon">必須</span></th>
+					<td style="position:relative;"><input type="text" id="form01" name="name" maxlength="30" value="<!-- NAME -->" placeholder="例) 山田 太郎"></td>
+				</tr>
+				<tr>
+					<th>メールアドレス　<span class="newicon">必須</span></th>
+					<td style="position:relative;"><input type="text" id="form01" name="email" maxlength="100" value="<!-- EMAIL -->" placeholder="例) abc@fromround.co.jp"></td>
+				</tr>
+				<tr>
+					<th>電話番号　<span class="newicon">必須</span></th>
+					<td style="position:relative;"><input type="text" id="form01" name="phone" maxlength="20" value="<!-- PHONE -->" placeholder="例) 01234567890（ハイフンなし）" oninput="value = value.replace(/[^0-9]+/i,'');"></td>
+				</tr>
+				<tr>
+					<th>年齢　<span class="newicon">必須</span></th>
+					<td style="position:relative;"><input type="text" id="form01" name="age" maxlength="3" value="<!-- AGE -->" placeholder="例) 20" oninput="value = value.replace(/[^0-9]+/i,'');" style="width:15%"> 歳</td>
+				</tr>
+				<tr>
+					<th>性別　<span class="newicon">必須</span></th>
+					<td style="position:relative;">
+						<select id="form01" name="gender">
+							<option value="">選択する</option>
+							<option value="男性" [-- INPUT_GENDER1 --]>男性</option>
+							<option value="女性" [-- INPUT_GENDER2 --]>女性</option>
+							<option value="その他" [-- INPUT_GENDER3 --]>その他</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>テニス歴　<span class="newicon">必須</span></th>
+					<td style="position:relative;">
+						<input type="text" id="form01" name="tennis_history" maxlength="2" value="<!-- TENNIS_HISTORY -->" placeholder="例) 5" oninput="value = value.replace(/[^0-9]+/i,'');" style="width:15%"> 年
+						<p style="padding:0px 10px 0px;">※ 1年未満の場合は「0」</p>
+					</td>
+				</tr>
+				<tr>
+					<th>ブランク年数　<span class="newicon">必須</span></th>
+					<td style="position:relative;">
+						<input type="text" id="form01" name="blank" maxlength="2" value="<!-- BLANK -->" placeholder="例) 3" oninput="value = value.replace(/[^0-9]+/i,'');" style="width:15%"> 年
+						<p style="padding:0px 10px 0px;">※ 1年未満の場合は「0」</p>
+					</td>
+				</tr>
+				<tr>
+					<th>ご意見・ご質問　<span class="newicon2">任意</span></th>
+					<td><textarea id="form01" name="contents" maxlength="1000" placeholder="ご意見・ご質問がございましたら、ご入力ください。"><!-- CONTENTS --></textarea></td>
+				</tr>
+			</table>
+			<h3>個人情報の取り扱いについて</h3>
+<textarea id="form02" readonly >
+T's ソフトテニススクール（以下、当スクール）は、以下のとおり個人情報保護方針を定め、個人情報保護の仕組みを構築し、全従業員に個人情報保護の重要性の認識と取組みを徹底させることにより、個人情報の保護を推進致します。
+
+■個人情報の管理
+当スクールは、お客さまの個人情報を正確かつ最新の状態に保ち、個人情報への不正アクセス・紛失・破損・改ざん・漏洩などを防止するため、セキュリティシステムの維持・管理体制の整備・社員教育の徹底等の必要な措置を講じ、安全対策を実施し個人情報の厳重な管理を行ないます。
+
+■個人情報の利用目的
+お客さまからお預かりした個人情報は、当スクールからのご連絡や業務のご案内やご質問に対する回答として、電子メールや資料のご送付に利用いたします。
+
+■個人情報の第三者への開示・提供の禁止
+当スクールは、お客さまよりお預かりした個人情報を適切に管理し、次のいずれかに該当する場合を除き、個人情報を第三者に開示いたしません。
+●お客さまの同意がある場合
+●お客さまが希望されるサービスを行なうために当スクールが業務を委託する業者に対して開示する場合
+●法令に基づき開示することが必要である場合
+
+■個人情報の安全対策
+当スクールは、個人情報の正確性及び安全性確保のために、セキュリティに万全の対策を講じています。
+
+■ご本人の照会
+お客さまがご本人の個人情報の照会・修正・削除などをご希望される場合には、ご本人であることを確認の上、対応させていただきます。
+
+■法令、規範の遵守と見直し
+当スクールは、保有する個人情報に関して適用される日本の法令、その他規範を遵守するとともに、本ポリシーの内容を適宜見直し、その改善に努めます。
+</textarea>
+			<br><br>
+			<table class="ta3">
+				<caption><span class="newicon">必須</span>　　<input type="checkbox" name="agree" [-- AGREE --]> <span style="text-align:center;">個人情報の取扱いに同意する</span></caption>
+			</table>
+			<br>
+			<div align="center">
+				<input type="submit" value="申込内容確認" class="button">
+			</div>
+		</form>
+	</div>
+	<!--/#contents-->
+</div>
+<!--/#container-->
+<footer>
+<small>Copyright&copy; <a href="index.html">T's SOFTTENNIS SCHOOL</a> All Rights Reserved.</small>
+</footer>
+
+<!--jQueryファイルの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--ページの上部へ戻るボタンとスクリプト-->
+<p class="scroll"><a href="#">↑</a></p>
+<script src="js/scroll.js"></script>
+
+</body>
+</html>

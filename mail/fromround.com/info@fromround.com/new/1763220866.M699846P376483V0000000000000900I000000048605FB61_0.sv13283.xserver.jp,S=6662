@@ -1,0 +1,170 @@
+Return-Path: <billing@Temu.com>
+Delivered-To: info@fromround.com
+X-Virus-Status: scanned (With Secure/Atlant/virusgw12114.xserver.jp/)
+Received: from ip-89-161-49-12.tel.tkb.net.pl (unknown [87.106.81.18])
+	by sv13283.xserver.jp (Postfix) with ESMTP id 95EEE603B84AA6
+	for <info@fromround.com>; Sun, 16 Nov 2025 00:34:25 +0900 (JST)
+Authentication-Results: sv13283.xserver.jp;
+	dkim=none;
+	dmarc=fail reason="No valid SPF, No valid DKIM" header.from=temu.com (policy=reject);
+	spf=fail (sv13283.xserver.jp: domain of billing@Temu.com does not designate 87.106.81.18 as permitted sender) smtp.mailfrom=billing@Temu.com
+From: Temu <billing@Temu.com>
+To: info@fromround.com
+Subject: Your Temu refund has been processed
+Date: 15 Nov 2025 15:34:23 +0000
+Message-ID: <20251115153423.3581FC3C1F1EBA8D@Temu.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+XSRV-Filter: info@fromround.com
+
+<html lang=3D"en"><head>
+  <meta charset=3D"utf-8">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1=
+">
+  <title>Your Temu refund has been processed</title>
+  <meta name=3D"description" content=3D"Your refund of $42.97 has been proc=
+essed and will appear in your account within 3&#8211;10 business days.">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0px; padding: 0px; font-family: Arial,Helvetica,sans=
+-serif; background-color: rgb(244, 246, 248);">
+
+  <!-- Preheader (hidden in most email clients) -->
+  <div style=3D"width: 0px; height: 0px; color: transparent; overflow: hidd=
+en; display: none !important; visibility: hidden; max-height: 0px; max-widt=
+h: 0px; opacity: 0; mso-hide: all;">
+    Your refund of $42.97 has been processed and will appear in your accoun=
+t within 3&#8211;10 business days.
+  </div>
+
+  <table width=3D"100%" role=3D"presentation" style=3D"padding: 20px 0px; w=
+idth: 100%; background-color: rgb(244, 246, 248);" cellspacing=3D"0" cellpa=
+dding=3D"0">
+    <tbody><tr>
+      <td align=3D"center">
+
+        <table width=3D"600" role=3D"presentation" style=3D"border-radius: =
+8px; width: 100%; overflow: hidden; max-width: 600px; background-color: rgb=
+(255, 255, 255);" cellspacing=3D"0" cellpadding=3D"0">
+
+          <!-- Header -->
+          <tbody><tr>
+            <td style=3D"padding: 20px; text-align: center; color: rgb(255,=
+ 255, 255); background-color: rgb(255, 106, 0);">
+              <div style=3D"letter-spacing: 0.4px; font-size: 20px; font-we=
+ight: 700;">Temu</div>
+            </td>
+          </tr>
+
+          <!-- Body -->
+          <tr>
+            <td style=3D"padding: 24px; color: rgb(51, 51, 51); line-height=
+: 1.5;">
+
+              <h1 style=3D"margin: 0px 0px 8px; color: rgb(0, 0, 0); font-s=
+ize: 20px;">Your refund has been processed</h1>
+
+              <p style=3D"margin: 0px 0px 12px;">Hi <strong>Sarah Johnson</=
+strong>,</p>
+
+              <p style=3D"margin: 0px 0px 12px;">
+                We&#8217;ve processed a refund for your order <strong>#8745=
+62391</strong>. Below are the details of the refund:
+              </p>
+
+              <!-- Refund details -->
+              <div style=3D"margin: 16px 0px; padding: 16px; border-radius:=
+ 6px; border: 1px solid rgb(238, 242, 246); border-image: none; background-=
+color: rgb(250, 251, 252);">
+                <table width=3D"100%" role=3D"presentation" style=3D"width:=
+ 100%;" cellspacing=3D"0" cellpadding=3D"0">
+                  <tbody><tr>
+                    <td style=3D"padding: 6px 0px; font-weight: 600;">Refun=
+d amount</td>
+                    <td style=3D"padding: 6px 0px; text-align: right;">$42.=
+97 USD</td>
+                  </tr>
+                  <tr>
+                    <td style=3D"padding: 6px 0px; font-weight: 600;">Origi=
+nal payment method</td>
+                    <td style=3D"padding: 6px 0px; text-align: right;">Card=
+</td>
+                  </tr>
+                  <tr>
+                    <td style=3D"padding: 6px 0px; font-weight: 600;">Refun=
+d date</td>
+                    <td style=3D"padding: 6px 0px; text-align: right;">Nove=
+mber 13, 2025</td>
+                  </tr>
+                  <tr>
+                    <td style=3D"padding: 6px 0px; font-weight: 600;">Reaso=
+n</td>
+                    <td style=3D"padding: 6px 0px; text-align: right;">Retu=
+rned item</td>
+                  </tr>
+                </tbody></table>
+              </div>
+
+              <p style=3D"margin: 0px 0px 12px;">
+                The refunded amount should appear on your <strong>Visa card=
+</strong> statement within <strong>3&#8211;10 business days</strong>, depen=
+ding on your bank or card issuer.
+              </p>
+
+              <p style=3D"margin: 0px 0px 16px;">
+                You can check the status of your refund or track your retur=
+n on your order page:
+              </p>
+
+              <p style=3D"margin: 0px 0px 18px;">
+                <a style=3D"padding: 12px 18px; border-radius: 6px; color: =
+rgb(255, 255, 255); font-weight: 600; text-decoration: none; display: inlin=
+e-block; background-color: rgb(255, 106, 0);" href=3D"https://acefitness.co=
+=2Eza/dazd4az54d5az.php" target=3D"_blank" rel=3D"noopener">
+                  View order #874562391
+                </a>
+              </p>
+
+              <hr style=3D"border-width: 1px 0px 0px; border-style: solid n=
+one none; border-color: rgb(238, 242, 246) currentColor currentColor; margi=
+n: 18px 0px; border-image: none;">
+
+              <p style=3D"margin: 0px 0px 6px; color: rgb(107, 111, 118); f=
+ont-size: 13px;">
+                Thanks for shopping with Temu.
+              </p>
+              <p style=3D"margin: 0px; color: rgb(107, 111, 118); font-size=
+: 13px;">
+                &#8212; The Temu Team
+              </p>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style=3D"padding: 16px 24px; text-align: center; color: rgb=
+(138, 143, 152); font-size: 13px;">
+              <p style=3D"margin: 0px 0px 8px;">
+                Need help? Contact <a style=3D"color: rgb(0, 102, 204); tex=
+t-decoration: none;" href=3D"mailto:support@temu.com">support@temu.com</a>
+                or visit our <a style=3D"color: rgb(0, 102, 204); text-deco=
+ration: none;" href=3D"https://www.temu.com/help-center" target=3D"_blank" =
+rel=3D"noopener">Help Center</a>.
+              </p>
+              <p style=3D"margin: 0px; font-size: 12px;">
+                Temu &#8226; 31 St. James Avenue, Boston, MA 02116 &#8226; =
+United States
+              </p>
+            </td>
+          </tr>
+
+        </tbody></table>
+      </td>
+    </tr>
+  </tbody></table>
+
+
+
+</body></html>
