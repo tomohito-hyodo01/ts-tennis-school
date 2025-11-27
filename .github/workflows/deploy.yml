@@ -28,7 +28,7 @@ jobs:
             set ftp:ssl-allow yes;
             set ftp:ssl-protect-data yes;
             open -u $FTP_USER,$FTP_PASS $FTP_HOST;
-            mirror --reverse --delete --verbose ./public_html/ts-tennis.fromround.com/ /home/fromround/fromround.com/public_html/;
+            mirror --reverse --delete --verbose ./public_html/ts-tennis.fromround.com/ fromround.com/public_html/;
             quit;
           "
 
