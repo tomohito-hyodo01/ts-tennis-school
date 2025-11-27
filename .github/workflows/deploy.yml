@@ -14,14 +14,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install ncftp
-        run: sudo apt-get install -y ncftp
+      - name: Install git-ftp
+        run: sudo apt-get install -y git-ftp
 
-      - name: Deploy to X-Server via ncftp
+      - name: Deploy to X-Server via git-ftp
         env:
           FTP_HOST: ${{ secrets.XSERVER_FTP_HOST }}
           FTP_USER: ${{ secrets.XSERVER_FTP_USER }}
           FTP_PASS: ${{ secrets.XSERVER_FTP_PASSWORD }}
         run: |
-          ncftpput -R -v -u "$FTP_USER" -p "$FTP_PASS" "$FTP_HOST" ts/public/ts-tennis.fromround.com ./public_html/ts-tennis.fromround.com/*
+          cd public_html/ts-tennis.fromround.com
+          git config git-ftp.url "ftps://$FTP_HOST/ts/public/ts-tennis.fromround.com"
+          git config git-ftp.user "$FTP_USER"
+          git config git-ftp.password "$FTP_PASS"
+          git config git-ftp.syncroot "."
+          git config git-ftp.insecure "1"
+          git ftp push --all --verbose || git ftp init --verbose
 
