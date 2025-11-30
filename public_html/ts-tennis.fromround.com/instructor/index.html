@@ -39,7 +39,7 @@
 			<table class="ta2" id="instructor">
 				<tr>
 					<th>テニス歴</th>
-					<td>23年</td>
+					<td><span class="tennis-years" data-start-year="2002"></span>年</td>
 				</tr>
 				<tr>
 					<th>出身校</th>
@@ -70,7 +70,7 @@
 			<table class="ta2" id="instructor">
 				<tr>
 					<th>テニス歴</th>
-					<td>22年</td>
+					<td><span class="tennis-years" data-start-year="2003"></span>年</td>
 				</tr>
 				<tr>
 					<th>出身校</th>
@@ -136,6 +136,14 @@
 <p class="scroll"><a href="#">↑</a></p>
 <script src="/js/scroll.js"></script>
 <script src="/js/animations.js"></script>
+<script>
+// テニス歴を自動計算
+document.querySelectorAll('.tennis-years').forEach(function(el) {
+	var startYear = parseInt(el.dataset.startYear);
+	var currentYear = new Date().getFullYear();
+	el.textContent = currentYear - startYear;
+});
+</script>
 
 </body>
 </html>
