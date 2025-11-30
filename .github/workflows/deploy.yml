@@ -30,7 +30,7 @@ jobs:
             set ftp:initial-prot '';
             set ftp:use-site-utime no;
             open -u $FTP_USER,$FTP_PASS $FTP_HOST;
-            cd /home/fromround/ts/public/ts-tennis.fromround.com;
+            cd /home/fromround/fromround.com/public_html/ts-tennis.fromround.com;
             lcd public_html/ts-tennis.fromround.com;
             mirror --reverse --delete --verbose --exclude-glob .git* --exclude-glob .htaccess --exclude-glob .user.ini;
             quit;
