@@ -14,25 +14,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install lftp
-        run: sudo apt-get update && sudo apt-get install -y lftp
-
-      - name: Deploy via lftp
-        env:
-          FTP_HOST: ${{ secrets.XSERVER_FTP_HOST }}
-          FTP_USER: ${{ secrets.XSERVER_FTP_USER }}
-          FTP_PASS: ${{ secrets.XSERVER_FTP_PASSWORD }}
+      - name: Setup SSH
         run: |
-          cd public_html/ts-tennis.fromround.com
-          lftp -u "$FTP_USER","$FTP_PASS" "$FTP_HOST" << EOF
-          set ssl:verify-certificate no
-          set ftp:ssl-allow yes
-          set ftp:ssl-protect-data yes
-          set ftp:passive-mode yes
-          set net:timeout 30
-          set net:max-retries 3
-          cd ts/public/ts-tennis.fromround.com
-          mirror -R --verbose --delete --ignore-time --exclude-glob .git* --exclude-glob .htaccess --exclude-glob .user.ini
-          bye
-          EOF
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -p 10022 sv13283.xserver.jp >> ~/.ssh/known_hosts
+
+      - name: Deploy via rsync
+        run: |
+          rsync -avz --delete \
+            --exclude '.git*' \
+            --exclude '.htaccess' \
+            --exclude '.user.ini' \
+            -e "ssh -p 10022 -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no" \
+            ./public_html/ts-tennis.fromround.com/ \
+            fromround@sv13283.xserver.jp:/home/fromround/ts/public/ts-tennis.fromround.com/
 
