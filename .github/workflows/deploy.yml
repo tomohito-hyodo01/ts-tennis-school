@@ -14,27 +14,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install lftp
-        run: sudo apt-get install -y lftp
-
-      - name: Check FTP directory structure
+      - name: Check FTP directory with curl
         env:
           FTP_HOST: ${{ secrets.XSERVER_FTP_HOST }}
           FTP_USER: ${{ secrets.XSERVER_FTP_USER }}
           FTP_PASS: ${{ secrets.XSERVER_FTP_PASSWORD }}
         run: |
-          lftp -c "
-            set ssl:verify-certificate no;
-            set ftp:ssl-allow yes;
-            set ftp:ssl-protect-data yes;
-            set ftp:passive-mode yes;
-            set ftp:ssl-protect-list yes;
-            open -u $FTP_USER,$FTP_PASS $FTP_HOST;
-            echo '=== Current directory ===';
-            pwd;
-            echo '=== Root listing ===';
-            cls;
-            echo '=== Done ===';
-            quit;
-          "
+          echo "=== Listing root directory ==="
+          curl -k --ftp-ssl --list-only "ftp://$FTP_HOST/" --user "$FTP_USER:$FTP_PASS" || echo "Root listing failed"
+          echo ""
+          echo "=== Trying fromround.com/public_html ==="
+          curl -k --ftp-ssl --list-only "ftp://$FTP_HOST/fromround.com/public_html/" --user "$FTP_USER:$FTP_PASS" || echo "fromround.com/public_html not found"
+          echo ""
+          echo "=== Trying ts-tennis.fromround.com directly ==="
+          curl -k --ftp-ssl --list-only "ftp://$FTP_HOST/ts-tennis.fromround.com/" --user "$FTP_USER:$FTP_PASS" || echo "ts-tennis.fromround.com not found"
 
