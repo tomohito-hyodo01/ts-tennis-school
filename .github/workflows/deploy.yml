@@ -14,22 +14,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install curl
-        run: sudo apt-get install -y curl
+      - name: Install lftp
+        run: sudo apt-get install -y lftp
 
-      - name: Deploy to X-Server via curl FTP
+      - name: Deploy to X-Server via lftp script
         env:
           FTP_HOST: ${{ secrets.XSERVER_FTP_HOST }}
           FTP_USER: ${{ secrets.XSERVER_FTP_USER }}
           FTP_PASS: ${{ secrets.XSERVER_FTP_PASSWORD }}
         run: |
-          cd public_html/ts-tennis.fromround.com
-          find . -type f | while read file; do
-            remote_path="fromround.com/public_html/ts-tennis.fromround.com/${file#./}"
-            echo "Uploading: $file -> $remote_path"
-            curl --ftp-ssl --insecure --user "$FTP_USER:$FTP_PASS" \
-              --ftp-create-dirs \
-              --upload-file "$file" \
-              "ftp://$FTP_HOST/$remote_path"
-          done
+          lftp -c "
+            set ssl:verify-certificate no;
+            set ftp:ssl-allow yes;
+            set ftp:ssl-protect-data yes;
+            open -u $FTP_USER,$FTP_PASS $FTP_HOST;
+            cd fromround.com/public_html/ts-tennis.fromround.com;
+            lcd public_html/ts-tennis.fromround.com;
+            mirror --reverse --delete --verbose --exclude-glob .git*;
+            quit;
+          "
 
