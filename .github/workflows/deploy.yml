@@ -27,16 +27,14 @@ jobs:
             set ssl:verify-certificate no;
             set ftp:ssl-allow yes;
             set ftp:ssl-protect-data yes;
-            set ftp:initial-prot '';
+            set ftp:passive-mode yes;
+            set ftp:ssl-protect-list yes;
             open -u $FTP_USER,$FTP_PASS $FTP_HOST;
             echo '=== Current directory ===';
             pwd;
             echo '=== Root listing ===';
-            ls;
-            echo '=== Trying fromround.com ===';
-            ls fromround.com/ || echo 'fromround.com not found';
-            echo '=== Trying public_html ===';
-            ls public_html/ || echo 'public_html not found';
+            cls;
+            echo '=== Done ===';
             quit;
           "
 
