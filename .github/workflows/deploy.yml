@@ -17,7 +17,7 @@ jobs:
       - name: Install lftp
         run: sudo apt-get install -y lftp
 
-      - name: Deploy to X-Server via lftp script
+      - name: Check FTP directory structure
         env:
           FTP_HOST: ${{ secrets.XSERVER_FTP_HOST }}
           FTP_USER: ${{ secrets.XSERVER_FTP_USER }}
@@ -28,11 +28,15 @@ jobs:
             set ftp:ssl-allow yes;
             set ftp:ssl-protect-data yes;
             set ftp:initial-prot '';
-            set ftp:use-site-utime no;
             open -u $FTP_USER,$FTP_PASS $FTP_HOST;
-            cd /home/fromround/fromround.com/public_html/ts-tennis.fromround.com;
-            lcd public_html/ts-tennis.fromround.com;
-            mirror --reverse --delete --verbose --exclude-glob .git* --exclude-glob .htaccess --exclude-glob .user.ini;
+            echo '=== Current directory ===';
+            pwd;
+            echo '=== Root listing ===';
+            ls;
+            echo '=== Trying fromround.com ===';
+            ls fromround.com/ || echo 'fromround.com not found';
+            echo '=== Trying public_html ===';
+            ls public_html/ || echo 'public_html not found';
             quit;
           "
 
