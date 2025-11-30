@@ -21,7 +21,7 @@ jobs:
           username: ${{ secrets.XSERVER_FTP_USER }}
           password: ${{ secrets.XSERVER_FTP_PASSWORD }}
           local-dir: ./public_html/ts-tennis.fromround.com/
-          server-dir: fromround.com/public_html/ts-tennis.fromround.com/
+          server-dir: ts/public/ts-tennis.fromround.com/
           protocol: ftps
           port: 21
           security: loose
