@@ -14,23 +14,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install lftp
-        run: sudo apt-get install -y lftp
-
-      - name: Deploy to X-Server via lftp
-        env:
-          FTP_HOST: ${{ secrets.XSERVER_FTP_HOST }}
-          FTP_USER: ${{ secrets.XSERVER_FTP_USER }}
-          FTP_PASS: ${{ secrets.XSERVER_FTP_PASSWORD }}
+      - name: Setup SSH
         run: |
-          lftp -e "
-            set ssl:verify-certificate no;
-            set ftp:ssl-allow yes;
-            set ftp:ssl-protect-data yes;
-            open -u $FTP_USER,$FTP_PASS $FTP_HOST;
-            cd ./fromround.com/public_html;
-            cd ts-tennis.fromround.com;
-            mirror --reverse --delete --verbose ./public_html/ts-tennis.fromround.com/ .;
-            quit;
-          "
+          mkdir -p ~/.ssh
+          echo "${{ secrets.XSERVER_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -p 10022 -H ${{ secrets.XSERVER_FTP_HOST }} >> ~/.ssh/known_hosts || true
+
+      - name: Deploy to X-Server via rsync
+        env:
+          SSH_HOST: ${{ secrets.XSERVER_FTP_HOST }}
+          SSH_USER: ${{ secrets.XSERVER_FTP_USER }}
+        run: |
+          rsync -avz --delete -e "ssh -p 10022" \
+            ./public_html/ts-tennis.fromround.com/ \
+            $SSH_USER@$SSH_HOST:/home/$SSH_USER/ts/public/ts-tennis.fromround.com/
 
