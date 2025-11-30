@@ -14,20 +14,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.XSERVER_FTP_HOST }}
-          username: ${{ secrets.XSERVER_FTP_USER }}
-          password: ${{ secrets.XSERVER_FTP_PASSWORD }}
-          local-dir: ./public_html/ts-tennis.fromround.com/
-          server-dir: ts/public/ts-tennis.fromround.com/
-          protocol: ftps
-          port: 21
-          security: loose
-          dangerous-clean-slate: true
-          exclude: |
-            **/.git*
-            **/.htaccess
-            **/.user.ini
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Deploy via lftp
+        env:
+          FTP_HOST: ${{ secrets.XSERVER_FTP_HOST }}
+          FTP_USER: ${{ secrets.XSERVER_FTP_USER }}
+          FTP_PASS: ${{ secrets.XSERVER_FTP_PASSWORD }}
+        run: |
+          cd public_html/ts-tennis.fromround.com
+          lftp -u "$FTP_USER","$FTP_PASS" "$FTP_HOST" << EOF
+          set ssl:verify-certificate no
+          set ftp:ssl-allow yes
+          set ftp:ssl-protect-data yes
+          set ftp:passive-mode yes
+          set net:timeout 30
+          set net:max-retries 3
+          cd ts/public/ts-tennis.fromround.com
+          mirror -R --verbose --delete --ignore-time --exclude-glob .git* --exclude-glob .htaccess --exclude-glob .user.ini
+          bye
+          EOF
 
