@@ -33,11 +33,11 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(element);
     });
 
-    // インストラクターセクションの順次アニメーション
-    const instructorSections = document.querySelectorAll('#contents > h4, #float_left01, #float_right01');
-    instructorSections.forEach((section, index) => {
-        section.style.opacity = '0';
-        section.style.animation = `fadeInUp 0.6s ease ${index * 0.15}s forwards`;
+    // ページ内のコンテンツ要素を順次アニメーション
+    const contentElements = document.querySelectorAll('#contents h2, #contents h3, #contents h4, #contents p, #contents ul, #contents ol, #contents .disc, #float_left01, #float_right01, #contents form, #contents iframe');
+    contentElements.forEach((element, index) => {
+        element.style.opacity = '0';
+        element.style.animation = `fadeInUp 0.6s ease ${index * 0.1}s forwards`;
     });
 
     // お知らせアイテムの順次アニメーション
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // テーブル行のアニメーション
-    const tableRows = document.querySelectorAll('.ta1 tr, .ta2 tr, .ta3 tr');
+    const tableRows = document.querySelectorAll('.ta1 tr, .ta2 tr, .ta3 tr, .ta4 tr');
     tableRows.forEach((row, index) => {
         row.style.opacity = '0';
         row.style.animation = `fadeIn 0.4s ease ${index * 0.08}s forwards`;
