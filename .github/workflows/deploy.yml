@@ -24,7 +24,7 @@ jobs:
           FTP_PASS: ${{ secrets.XSERVER_FTP_PASSWORD }}
         run: |
           cd public_html/ts-tennis.fromround.com
-          git config git-ftp.url "ftp://$FTP_HOST/ts/public/ts-tennis.fromround.com"
+          git config git-ftp.url "ftp://$FTP_HOST/fromround.com/public_html/ts-tennis.fromround.com"
           git config git-ftp.user "$FTP_USER"
           git config git-ftp.password "$FTP_PASS"
           git config git-ftp.syncroot "."
