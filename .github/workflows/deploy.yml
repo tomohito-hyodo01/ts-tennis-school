@@ -14,19 +14,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup SSH
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.XSERVER_SSH_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -p 10022 -H ${{ secrets.XSERVER_FTP_HOST }} >> ~/.ssh/known_hosts || true
+      - name: Install curl
+        run: sudo apt-get install -y curl
 
-      - name: Deploy to X-Server via rsync
+      - name: Deploy to X-Server via curl FTP
         env:
-          SSH_HOST: ${{ secrets.XSERVER_FTP_HOST }}
-          SSH_USER: ${{ secrets.XSERVER_FTP_USER }}
+          FTP_HOST: ${{ secrets.XSERVER_FTP_HOST }}
+          FTP_USER: ${{ secrets.XSERVER_FTP_USER }}
+          FTP_PASS: ${{ secrets.XSERVER_FTP_PASSWORD }}
         run: |
-          rsync -avz --delete -e "ssh -p 10022" \
-            ./public_html/ts-tennis.fromround.com/ \
-            $SSH_USER@$SSH_HOST:/home/$SSH_USER/ts/public/ts-tennis.fromround.com/
+          cd public_html/ts-tennis.fromround.com
+          find . -type f -print0 | while IFS= read -r -d '' file; do
+            remote_path="fromround.com/public_html/ts-tennis.fromround.com/${file#./}"
+            echo "Uploading: $file -> $remote_path"
+            curl --ftp-ssl --insecure --user "$FTP_USER:$FTP_PASS" \
+              --upload-file "$file" \
+              "ftp://$FTP_HOST/$remote_path" || true
+          done
 
