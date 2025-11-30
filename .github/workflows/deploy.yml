@@ -24,11 +24,12 @@ jobs:
           FTP_PASS: ${{ secrets.XSERVER_FTP_PASSWORD }}
         run: |
           cd public_html/ts-tennis.fromround.com
-          find . -type f -print0 | while IFS= read -r -d '' file; do
+          find . -type f | while read file; do
             remote_path="fromround.com/public_html/ts-tennis.fromround.com/${file#./}"
             echo "Uploading: $file -> $remote_path"
             curl --ftp-ssl --insecure --user "$FTP_USER:$FTP_PASS" \
+              --ftp-create-dirs \
               --upload-file "$file" \
-              "ftp://$FTP_HOST/$remote_path" || true
+              "ftp://$FTP_HOST/$remote_path"
           done
 
