@@ -3,29 +3,30 @@ name: Deploy to X-Server
 on:
   push:
     branches:
-      - main  # mainブランチにプッシュされたときに実行
-  workflow_dispatch:  # 手動実行も可能
+      - main
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Check FTP directory with curl
-        env:
-          FTP_HOST: ${{ secrets.XSERVER_FTP_HOST }}
-          FTP_USER: ${{ secrets.XSERVER_FTP_USER }}
-          FTP_PASS: ${{ secrets.XSERVER_FTP_PASSWORD }}
-        run: |
-          echo "=== Listing root directory ==="
-          curl -k --ftp-ssl --list-only "ftp://$FTP_HOST/" --user "$FTP_USER:$FTP_PASS" || echo "Root listing failed"
-          echo ""
-          echo "=== Trying fromround.com/public_html ==="
-          curl -k --ftp-ssl --list-only "ftp://$FTP_HOST/fromround.com/public_html/" --user "$FTP_USER:$FTP_PASS" || echo "fromround.com/public_html not found"
-          echo ""
-          echo "=== Trying ts-tennis.fromround.com directly ==="
-          curl -k --ftp-ssl --list-only "ftp://$FTP_HOST/ts-tennis.fromround.com/" --user "$FTP_USER:$FTP_PASS" || echo "ts-tennis.fromround.com not found"
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.XSERVER_FTP_HOST }}
+          username: ${{ secrets.XSERVER_FTP_USER }}
+          password: ${{ secrets.XSERVER_FTP_PASSWORD }}
+          local-dir: ./public_html/ts-tennis.fromround.com/
+          server-dir: fromround.com/public_html/ts-tennis.fromround.com/
+          protocol: ftps
+          port: 21
+          security: loose
+          exclude: |
+            **/.git*
+            **/.htaccess
+            **/.user.ini
 
