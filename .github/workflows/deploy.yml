@@ -27,10 +27,11 @@ jobs:
             set ssl:verify-certificate no;
             set ftp:ssl-allow yes;
             set ftp:ssl-protect-data yes;
+            set ftp:initial-prot '';
+            set ftp:use-site-utime no;
             open -u $FTP_USER,$FTP_PASS $FTP_HOST;
-            cd fromround.com/public_html/ts-tennis.fromround.com;
-            lcd public_html/ts-tennis.fromround.com;
-            mirror --reverse --delete --verbose --exclude-glob .git*;
+            pwd;
+            ls;
             quit;
           "
 
