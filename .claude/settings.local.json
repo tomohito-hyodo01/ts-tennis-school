@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh run list:*)",
+      "Bash(cmd.exe /c \"gh run list --limit 5 --repo tomohito-hyodo01/ts-tennis-school\")",
+      "Bash(where:*)",
+      "Bash(powershell.exe -Command \"gh run list --limit 5 --repo tomohito-hyodo01/ts-tennis-school\")",
+      "WebFetch(domain:github.com)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
