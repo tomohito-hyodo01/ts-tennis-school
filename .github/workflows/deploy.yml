@@ -14,20 +14,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install git-ftp
-        run: sudo apt-get install -y git-ftp
+      - name: Install lftp
+        run: sudo apt-get install -y lftp
 
-      - name: Deploy to X-Server via git-ftp
+      - name: Deploy to X-Server via lftp
         env:
           FTP_HOST: ${{ secrets.XSERVER_FTP_HOST }}
           FTP_USER: ${{ secrets.XSERVER_FTP_USER }}
           FTP_PASS: ${{ secrets.XSERVER_FTP_PASSWORD }}
         run: |
-          cd public_html/ts-tennis.fromround.com
-          git config git-ftp.url "ftp://$FTP_HOST/fromround.com/public_html/ts-tennis.fromround.com"
-          git config git-ftp.user "$FTP_USER"
-          git config git-ftp.password "$FTP_PASS"
-          git config git-ftp.syncroot "."
-          git config git-ftp.insecure "1"
-          git ftp push --all --verbose || git ftp init --verbose
+          lftp -e "
+            set ssl:verify-certificate no;
+            set ftp:ssl-allow yes;
+            set ftp:ssl-protect-data yes;
+            open -u $FTP_USER,$FTP_PASS $FTP_HOST;
+            cd ./fromround.com/public_html/ts-tennis.fromround.com;
+            mirror --reverse --delete --verbose ./public_html/ts-tennis.fromround.com/ .;
+            quit;
+          "
 
