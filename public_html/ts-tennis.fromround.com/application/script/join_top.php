@@ -36,18 +36,18 @@ $kyh_gender = [
 ];
 
 // トリム・サニタイズ
-$course = htmlspecialchars(trim($_POST['course']), ENT_COMPAT, "UTF-8");
-$park = htmlspecialchars(trim($_POST['park']), ENT_COMPAT, "UTF-8");
-$times = htmlspecialchars(trim($_POST['times']), ENT_COMPAT, "UTF-8");
-$target = htmlspecialchars(trim($_POST['target']), ENT_COMPAT, "UTF-8");
-$name = htmlspecialchars(trim($_POST['name']), ENT_COMPAT, "UTF-8");
-$email = htmlspecialchars(trim($_POST['email']), ENT_COMPAT, "UTF-8");
-$phone = htmlspecialchars(trim($_POST['phone']), ENT_COMPAT, "UTF-8");
-$age = htmlspecialchars(trim($_POST['age']), ENT_COMPAT, "UTF-8");
-$gender = htmlspecialchars(trim($_POST['gender']), ENT_COMPAT, "UTF-8");
-$tennis_history = htmlspecialchars(trim($_POST['tennis_history']), ENT_COMPAT, "UTF-8");
-$blank = htmlspecialchars(trim($_POST['blank']), ENT_COMPAT, "UTF-8");
-$contents = htmlspecialchars(trim($_POST['contents']), ENT_COMPAT, "UTF-8");
+$course = isset($_POST['course']) ? htmlspecialchars(trim($_POST['course']), ENT_COMPAT, "UTF-8") : '';
+$park = isset($_POST['park']) ? htmlspecialchars(trim($_POST['park']), ENT_COMPAT, "UTF-8") : '';
+$times = isset($_POST['times']) ? htmlspecialchars(trim($_POST['times']), ENT_COMPAT, "UTF-8") : '';
+$target = isset($_POST['target']) ? htmlspecialchars(trim($_POST['target']), ENT_COMPAT, "UTF-8") : '';
+$name = isset($_POST['name']) ? htmlspecialchars(trim($_POST['name']), ENT_COMPAT, "UTF-8") : '';
+$email = isset($_POST['email']) ? htmlspecialchars(trim($_POST['email']), ENT_COMPAT, "UTF-8") : '';
+$phone = isset($_POST['phone']) ? htmlspecialchars(trim($_POST['phone']), ENT_COMPAT, "UTF-8") : '';
+$age = isset($_POST['age']) ? htmlspecialchars(trim($_POST['age']), ENT_COMPAT, "UTF-8") : '';
+$gender = isset($_POST['gender']) ? htmlspecialchars(trim($_POST['gender']), ENT_COMPAT, "UTF-8") : '';
+$tennis_history = isset($_POST['tennis_history']) ? htmlspecialchars(trim($_POST['tennis_history']), ENT_COMPAT, "UTF-8") : '';
+$blank = isset($_POST['blank']) ? htmlspecialchars(trim($_POST['blank']), ENT_COMPAT, "UTF-8") : '';
+$contents = isset($_POST['contents']) ? htmlspecialchars(trim($_POST['contents']), ENT_COMPAT, "UTF-8") : '';
 
 // 置換タグ設定
 $replace_tag['TIMES'] = 4;

@@ -56,11 +56,11 @@ class FUNCTION_webManagement {
 	 * @param value 値.
 	 */
 	static function setHiddenTag(
-		$name, 
-		$value 
+		$name,
+		$value
 	) {
 		// Hiddenタグ返却
-		return "<input type='hidden' id=" . $name . " name=" . $name . " value =" . $value . ">";
+		return "<input type='hidden' id='" . $name . "' name='" . $name . "' value='" . htmlspecialchars($value, ENT_QUOTES, 'UTF-8') . "'>";
 	}
 	
 }

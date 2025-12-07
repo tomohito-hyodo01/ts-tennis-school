@@ -8,4 +8,7 @@ $_SCR_JOIN_COMPLETE_ = $_SERVER['DOCUMENT_ROOT'] . '/application/screen/join_com
 $_SCR_RECRUIT_TOP_ = $_SERVER['DOCUMENT_ROOT'] . '/application/screen/recruit_top.html'; // インストラクター応募トップ画面
 $_SCR_RECRUIT_CONFIRM_ = $_SERVER['DOCUMENT_ROOT'] . '/application/screen/recruit_confirm.html'; // インストラクター応募内容確認画面
 $_SCR_RECRUIT_COMPLETE_ = $_SERVER['DOCUMENT_ROOT'] . '/application/screen/recruit_complete.html'; // インストラクター応募完了画面
+$_SCR_TRIAL_TOP_ = $_SERVER['DOCUMENT_ROOT'] . '/application/screen/trial_top.html'; // 体験申込トップ画面
+$_SCR_TRIAL_CONFIRM_ = $_SERVER['DOCUMENT_ROOT'] . '/application/screen/trial_confirm.html'; // 体験申込内容確認画面
+$_SCR_TRIAL_COMPLETE_ = $_SERVER['DOCUMENT_ROOT'] . '/application/screen/trial_complete.html'; // 体験申込完了画面
 $_REDIRECT_ = $_SERVER['DOCUMENT_ROOT'] . '/application/screen/redirect.html'; // リダイレクト画面

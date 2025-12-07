@@ -10,11 +10,10 @@ $screen_path = $GLOBALS['_SCR_INQUIRY_TOP_'];
 $error_message = '';
 
 // トリム・サニタイズ
-$name = htmlspecialchars(trim($_POST['name']), ENT_COMPAT, "UTF-8");
-$email = htmlspecialchars(trim($_POST['email']), ENT_COMPAT, "UTF-8");
-$phone = htmlspecialchars(trim($_POST['phone']), ENT_COMPAT, "UTF-8");
-# $contents = htmlspecialchars(trim($_POST['contents']), ENT_COMPAT, "UTF-8");
-$contents = $_POST['contents'];
+$name = isset($_POST['name']) ? htmlspecialchars(trim($_POST['name']), ENT_COMPAT, "UTF-8") : '';
+$email = isset($_POST['email']) ? htmlspecialchars(trim($_POST['email']), ENT_COMPAT, "UTF-8") : '';
+$phone = isset($_POST['phone']) ? htmlspecialchars(trim($_POST['phone']), ENT_COMPAT, "UTF-8") : '';
+$contents = isset($_POST['contents']) ? $_POST['contents'] : '';
 
 // 置換タグ設定
 $replace_tag['NAME'] = '';

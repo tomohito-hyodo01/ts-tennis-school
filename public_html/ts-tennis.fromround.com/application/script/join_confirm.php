@@ -61,7 +61,7 @@ if(!isset($_POST)) {
 	$gender = htmlspecialchars(trim($_POST['gender']), ENT_COMPAT, "UTF-8");
 	$tennis_history = htmlspecialchars(trim($_POST['tennis_history']), ENT_COMPAT, "UTF-8");
 	$blank = htmlspecialchars(trim($_POST['blank']), ENT_COMPAT, "UTF-8");
-	$contents = htmlspecialchars(trim(str_replace(array("\r", "\n"), '', $_POST['contents'])), ENT_COMPAT, "UTF-8");
+	$contents = htmlspecialchars(trim($_POST['contents']), ENT_COMPAT, "UTF-8");
 	
 	// お申込みコースが選択されていない場合
 	if ($course == "") {
