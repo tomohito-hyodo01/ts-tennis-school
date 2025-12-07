@@ -11,7 +11,19 @@
       "Bash(git push:*)",
       "Bash(git checkout:*)",
       "Bash(dir:*)",
-      "Bash(git stash:*)"
+      "Bash(git stash:*)",
+      "Bash(tree:*)",
+      "WebFetch(domain:daae.shiftinc.jp)",
+      "WebFetch(domain:kyoto-tech.ac.jp)",
+      "WebSearch",
+      "WebFetch(domain:sankoudesign.com)",
+      "WebFetch(domain:tennislounge.com)",
+      "WebFetch(domain:viptop.jp)",
+      "WebFetch(domain:www.s-re.jp)",
+      "WebFetch(domain:cssnite-kobe.jp)",
+      "WebFetch(domain:studio.design)",
+      "WebFetch(domain:lp.webdesignclip.com)",
+      "WebFetch(domain:rage-esports.jp)"
     ],
     "deny": [],
     "ask": []
