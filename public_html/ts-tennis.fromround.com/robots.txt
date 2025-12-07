@@ -1,0 +1,17 @@
+# robots.txt for T's Softtennis School
+# https://ts-tennis.fromround.com/
+
+User-agent: *
+Allow: /
+
+# サイトマップの場所
+Sitemap: https://ts-tennis.fromround.com/sitemap.xml
+
+# クロール不要なディレクトリ
+Disallow: /application/script/
+Disallow: /application/screen/
+Disallow: /test/
+Disallow: /blog_sample/
+
+# クロール遅延（サーバー負荷軽減）
+Crawl-delay: 1
