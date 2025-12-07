@@ -3,24 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>T'sソフトテニススクール</title>
+<title>体験申込内容確認 - T'sソフトテニススクール</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="T'sソフトテニススクールは東京都・埼玉県の施設でレッスンを行っているソフトテニススクールです。初心者は基本から、上級者は勝つ為のテクニックを教えます。">
 <meta name="keywords" content="T's,T'sソフトテニススクール,テニススクール,ソフトテニス,ソフトテニスレッスン,ソフトテニススクール 大人,ソフトテニススクール 東京,ソフトテニススクール 埼玉,ソフトテニススクール 中学生, ソフトテニススクール 高校生, ソフトテニス ブランク,ソフトテニススクール アルバイト,ソフトテニス アルバイト,ソフトテニススクール バイト,ソフトテニス バイト,ソフトテニス インストラクター,ソフトテニススクール インストラクター,ソフトテニススクール 時間">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 <link rel="icon" href="/images/favicon.ico">
-<script src="js/fixmenu_pagetop.js"></script>
+<script src="/js/fixmenu_pagetop.js"></script>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
 <body>
-<header>
-	<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="SAMPLE COMPANY"></a></h1>
-	<nav id="menubar_top">
+<div id="header_2">
+	<nav id="menubar">
 		<ul>
-			<li><a href="#new">お知らせ</a></li>
+			<li><a href="/">ホーム</a></li>
 			<li><a href="/about/">スクールについて</a></li>
 			<li><a href="/course/">コース</a></li>
 			<li><a href="/instructor/">インストラクター</a></li>
@@ -28,34 +27,71 @@
 			<li><a href="/access/">アクセス</a></li>
 		</ul>
 	</nav>
-</header>
-
+</div>
 <div id="container">
 	<div id="contents">
-		<section id="new">
-			<h2>お知らせ</h2>
-			<dl>
-				<!-- 公開時にコメントを外す
-				<dt>2025/12/06</dt>
-				<dd><a href="/trial/">レッスン体験会開催決定！（12/23・1/5）</a><span class="newicon">NEW</span></dd>
-				-->
-				<dt>2025/11/27</dt>
-				<dd><a href="/instructor/#ogawa">メインインストラクターのご紹介！</a></dd>
-				<dt>2022/03/02</dt>
-				<dd><a href="/course/"><a href="https://www.instagram.com/tez_softtennis_school/" target="blank">Instagramアカウント開設</a></dd>
-				<dt>2022/02/11</dt>
-				<dd><a href="/course/">入会金無料キャンペーン実施中！</a></dd>
-				<dt>2020/02/11</dt>
-				<dd>T's ソフトテニススクール ホームページ開設</dd>
-			</dl>
-
-		</section>
-		<!--/#new-->
+	<h2>体験申込内容確認</h2>
+	<font color="red"><!-- ERROR_MESSAGE --></font>
+		<form method="POST" action="/save">
+			<h3>体験希望日</h3>
+			<table class="ta1">
+				<tr>
+					<th>体験希望日</th>
+					<td style="position:relative;"><!-- TRIAL_DATE --></td>
+				</tr>
+			</table>
+			<h3>お客様情報</h3>
+			<table class="ta1">
+				<tr>
+					<th>お名前</th>
+					<td style="position:relative;"><!-- NAME --> 様</td>
+				</tr>
+				<tr>
+					<th>メールアドレス</th>
+					<td style="position:relative;"><!-- EMAIL --></td>
+				</tr>
+				<tr>
+					<th>電話番号</th>
+					<td style="position:relative;"><!-- PHONE --></td>
+				</tr>
+				<tr>
+					<th>年齢</th>
+					<td style="position:relative;"><!-- AGE --> 歳</td>
+				</tr>
+				<tr>
+					<th>性別</th>
+					<td style="position:relative;"><!-- GENDER --></td>
+				</tr>
+				<tr>
+					<th>ご意見・ご質問</th>
+					<td style="position:relative;"><!-- CONTENTS --></td>
+				</tr>
+			</table>
+			<h3>個人情報の取り扱いについて</h3>
+			<table class="ta1">
+				<tr>
+					<th>規約等への同意</th>
+					<td style="position:relative;">個人情報の取扱いに同意する</td>
+			</table>
+			<br>
+			<div align="center">
+				<p>上記の内容でお間違いがなければ［申込］ボタンを押下してください。</p>
+				<input type="submit" formaction="/application/script/trial_complete.php" value="申込" class="button">
+				<input type="submit" formaction="/application/script/trial_top.php" value="戻る" class="button2">
+			</div>
+			<!-- INPUT_TRIAL_DATE -->
+			<!-- INPUT_NAME -->
+			<!-- INPUT_EMAIL -->
+			<!-- INPUT_PHONE -->
+			<!-- INPUT_AGE -->
+			<!-- INPUT_GENDER -->
+			<!-- INPUT_CONTENTS -->
+			<!-- INPUT_AGREE -->
+		</form>
 	</div>
 	<!--/#contents-->
 </div>
 <!--/#container-->
-
 <footer>
 <small>Copyright&copy; <a href="index.html">T's SOFTTENNIS SCHOOL</a> All Rights Reserved.</small>
 </footer>
@@ -66,7 +102,6 @@
 <!--ページの上部へ戻るボタンとスクリプト-->
 <p class="scroll"><a href="#">↑</a></p>
 <script src="js/scroll.js"></script>
-<script src="js/animations.js"></script>
 
 </body>
 </html>
