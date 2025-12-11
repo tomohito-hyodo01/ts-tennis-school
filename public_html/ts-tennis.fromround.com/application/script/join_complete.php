@@ -278,7 +278,7 @@ if(!isset($_POST)) {
 	}
 	
 	// お客様からのお問い合わせをメール送信
-	$result = COMMON_Mail::sendMail('hyodo1011@yahoo.co.jp', 'JOIN_SYSTEM', array($course, $park, $times, $target, $name, $email, $phone, $age, $gender, $tennis_history, $blank, $contents), $contents);
+	$result = COMMON_Mail::sendMail('hyodo1011@yahoo.co.jp', 'JOIN_SYSTEM', array($course, $park, $times, $target, $name, $email, $phone, $age, $gender, $tennis_history, $blank, $contents), "");
 	
 	// お客様に自動メール送信処理
 	$result = COMMON_Mail::sendMail($email, 'JOIN_USER', array($name, $course, $park, $times, $contents), "");

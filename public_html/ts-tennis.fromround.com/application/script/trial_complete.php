@@ -174,7 +174,7 @@ if(!isset($_POST)) {
 	}
 
 	// 管理者への体験申込通知をメール送信
-	$result = COMMON_Mail::sendMail('hyodo1011@yahoo.co.jp', 'TRIAL_SYSTEM', array($trial_date, $name, $email, $phone, $age, $gender, $contents), $contents);
+	$result = COMMON_Mail::sendMail('hyodo1011@yahoo.co.jp', 'TRIAL_SYSTEM', array($trial_date, $name, $email, $phone, $age, $gender, $contents), "");
 
 	// お客様に自動メール送信処理
 	$result = COMMON_Mail::sendMail($email, 'TRIAL_USER', array($name, $trial_date, $contents), "");

@@ -23,7 +23,14 @@
       "WebFetch(domain:cssnite-kobe.jp)",
       "WebFetch(domain:studio.design)",
       "WebFetch(domain:lp.webdesignclip.com)",
-      "WebFetch(domain:rage-esports.jp)"
+      "WebFetch(domain:rage-esports.jp)",
+      "Bash(git -C \"C:\\個人開発\\ts-tennis-school\" status --porcelain)",
+      "Bash(del \"\\?\\C:\\個人開発\\ts-tennis-school\\nul\")",
+      "Bash(cmd.exe /c \"del \\?\\C:\\個人開発\\ts-tennis-school\\nul\")",
+      "Bash(cmd.exe /c \"cd /d C:\\個人開発\\ts-tennis-school && del /f nul\")",
+      "Bash(powershell.exe -Command \"Remove-Item -LiteralPath ''\\?\\C:\\個人開発\\ts-tennis-school\\nul'' -Force\")",
+      "Bash(powershell.exe -Command \"Remove-Item -LiteralPath ''\\.\\C:\\個人開発\\ts-tennis-school\\nul'' -Force\")",
+      "Bash(cmd.exe /c \"pushd C:\\個人開発\\ts-tennis-school && dir nul\")"
     ],
     "deny": [],
     "ask": []

@@ -133,7 +133,7 @@ if(!isset($_POST)) {
 	# $result = COMMON_Mail::sendMail('hyodo1011@yahoo.co.jp', 'INQUIRY_SYSTEM', array($name, $email, $phone, $contents));
 	
 	// お客様に自動メール送信処理
-	$result = COMMON_Mail::sendMail($email, 'INQUIRY_USER', array($name, $contents), $contents);
+	$result = COMMON_Mail::sendMail($email, 'INQUIRY_USER', array($name, $contents), "");
 	
 	// 追加開発:::LINE通知
 
